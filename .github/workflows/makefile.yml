@@ -13,7 +13,16 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    
     - name: Make artifacts
       run: make
+    - name: Upload pdfs
+      uses: actions/upload-artifact@v2
+      with:
+        name: pdf
+        path: pdf/*.pdf
+    - name: Upload svgs
+      uses: actions/upload-artifact@v2
+      with:
+        name: svg
+        path: svg/*.svg
       
