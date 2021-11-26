@@ -1,0 +1,1265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="624px" preserveAspectRatio="none" style="width:2621px;height:624px;background:#FFFFFF;" version="1.1" viewBox="0 0 2621 624" width="2621px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="363" x="1122.5" y="16.708">Container diagram for Open Source IPTV</text><!--MD5=[c807075249e77b2c125f5737bdc61fb3]
+cluster home--><rect fill="#FFFFFF" height="215" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="828" x="7" y="349.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="143" x="349.5" y="366.8047">Customer Home</text><text fill="#444444" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="393.5" y="381.7168">[System]</text><!--MD5=[84dda40acb3410cad7262261daba2aaf]
+cluster c1--><rect fill="#FFFFFF" height="415" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="1246" x="1011" y="27.9531"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="224" x="1522" y="44.8047">Service Provider (ISP/TV)</text><text fill="#444444" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="55" x="1606.5" y="59.7168">[System]</text><!--MD5=[92848cbaf65985a669855153c5362c37]
+entity customer--><rect fill="#686868" height="135.5156" style="stroke:#8A8A8A;stroke-width:1.5;" width="201" x="23" y="406.9531"/><image height="48" width="48" x="99.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACRklEQVR4Xu2WK3PDMBCE+3ONg4ONg4ODjYONg4ODg83dHV0qn1c6nax02k7HH7Req72H9dH9MT74w2+zC/LYBXnsgjy+QdDxeDydTn3fHw4HHttOuyAcf71ep2maFY/HA+J46hYaBcEPkqIZx5EXVNMiCDEqqBGaNbUIQlz4/BxtscsIulwuz+cTO8IGZAmN4hg+2QC607X3+30OO99uNzhNE7pUEKwu75tOKKDr7nw+0yhkpZpWgpCqtEbQPskVK8GGsgrKeCyQurgSZN0eEYxzKhNIiGmU2hOh7rUShLjy9AC8dedkiRFBXvLYFxS1laBhGHh6QBtb2JrQ1yiUQpwjrARZkYbh7pwUqlCpXCJtV1xl6VXSyreM1MAeSg6EhjShPvQEgQV1wQMcCe2QEsuEcDPJWoiIjwGrbWYEVWL5hIRLu0s9LAj2YLteUXhUYAg3hlsQAf8L9xZo56zuRRB2t5oeYt8bIagE0edNA0g1XEnPXARlq0DAsvLVXco5pzW9BFkJMQd7YtSwEi7K20N+vTqmCAEaRLQZCxHEmt44q270EmT9EGL1pkVbT2wchWvHCLwEWYdJ6kAND2wEIZODrDSNvbckKDYu931YgyRKbzwoWFA2ZGJjwedNxF9b4axFUDbjZChrXhtiQ9oC9PNmKXuYOSjE4fpfaQ3yK0VG0kG693KnJt5PZ032b0o4gqwcbOM/CgK86xukT6sUX5D18m8g+3snfEFdaEWozOkNEKwaNV2loJ9kF+SxC/LYBXnsgjw+AUvXCHwjywsMAAAAAElFTkSuQmCC" y="416.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="134" x="56.5" y="479.8047">IPTV Customer</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="125.5" y="496.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="37" y="512.8701">A customer, client for the</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="56.5" y="529.167">IPTV (Watching TV).</text><!--MD5=[ef7db08e877ba5c9defef17d2f3bd496]
+entity tv--><rect fill="#438DD5" height="133.1875" style="stroke:#3C7FC0;stroke-width:1.5;" width="150" x="348" y="408.4531"/><image height="48" width="48" x="399" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACU0lEQVR4Xu2XsUrEQBCG793yAL6AD+AL+AA+gFZWYmdhYXmdldgJNhYiJwgHcnAgKCoognB+3Jhl3El2Z4OnIjv8RTJJZr+bmZ3kRs325Z/SyLp+VxUopwqUUwXK6X8Bre9f7xzPDs/uxhf3iOONgxt7W5EGAm2Nb2cPb4suw89V+4hTQ4BOJo8xhbHz6bN90KNiIEoTL95jw5jKgGiReNmk0VU2SFplQJ5iaZvMX2yQtMqAnl7f4zVzZoOkVQC0tnsVr+YwRoMNldBAIBp273TOBNKbn2M8+HVlVwjUtCWLto8s3+lcrLRkTbvnSYN2khKcXNJO9pel9KgMiPzbZdhKOEmedkqGNo+mNkhaZUAIGmEiB+QGGlDkTYLw4BcaTu3jWRUD2VEEBH6SEfkHDKFmAJAdRYlLbEwbIa1iIJshykd1Ov328ay8QLzFKI0MFaojO6vPuBo+jKTVbMA+uYDCSNRbSbrbmu7lwB1NioRcQPolrycvx1QKAm6Ajy6O5nKoo798LqAoGZymvwnhY05GPe78unUB6bjaSIAefVSWGvV92jqr5gIKg45fSVz90zmWYSjzWpskUt4h3PadGWqWv16fkhjIkN3tkAGh7y+aRi4gIuq/ODZPi2UO6Bv8JCZqMo79LzUXUGiL6ANIDA7WY3/ZqnEpbAgnkwvo6yqf1rnXOpMn5hyPLiDWCHFJA6GzbUE+dHuBmH1E5ALSg9EZVxSYOLBXO+UCato2Kv2ioKYCZIvbJy9Qs8yTdWZFsxcltQDoZ1SBcqpAOVWgnCpQTh/pBqQKHjzThwAAAABJRU5ErkJggg==" y="418.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="59" x="393.5" y="481.3047">TV Set</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="130" x="358" y="496.2168">[Sony, Samsung, LG]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="425" y="512.042"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="362.5" y="528.3389">Shows the picture</text><!--MD5=[001e9f87fc4374f29b99c417a9689855]
+entity stb--><rect fill="#438DD5" height="149.4844" style="stroke:#3C7FC0;stroke-width:1.5;" width="217" x="602" y="400.4531"/><image height="48" width="48" x="686.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABSklEQVR4Xu2XMYoCQRBFvVsdwAvsNTyABzDbaNncwHAuIGaCicGyaCSIMCAoKijCQluMbOP0t6e6nR7GoD4/sbr1PdTRng4Nft6qHRy1WxWSqkJSVUiqCkn1CmXz3fHy11Bnq1P38xehXqHhdGsaDjsh1yu0yM/uCzQQ5KpQOciNEOLJx/dys7868zpBbqgQP7zP+dJI6ITcUKF+trZLCZ2QS4FCnN5oZVdTOSGXwoVMA07IpSghk9oJuRQrZJI6IZdeEPqa5I87+R/A3REc5FKskGMzXhzcHTFBLkUJpbUxNYWS25g6QtXfGzzu2D5uwyCXAoX4sGaXHBvfsebe6jcS91OgkPl3wmuqNSFTfDTuqBgy1denT7FBbpxQ8iBXhcpBrgqVg1wVKge5XqG3u3Ml6Ue2ZtiGb6oQWiXUVlVIqgpJVSGpKiT1Bh6te4RnId5VAAAAAElFTkSuQmCC" y="410.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="34" x="693.5" y="473.3047">STB</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="94" x="663.5" y="488.2168">[No Name STB]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="712.5" y="504.042"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="193" x="616" y="520.3389">Gets the signal from Service</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="682.5" y="536.6357">Provider</text><!--MD5=[b14aa3529a60505823c7fa67d4fbe949]
+entity caddy--><rect fill="#438DD5" height="149.4844" style="stroke:#3C7FC0;stroke-width:1.5;" width="202" x="1027" y="250.4531"/><image height="48" width="48" x="1104" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACBElEQVR4Xu2WP0pEMRDG927vAF7AA3gBD+ABtLISOwsLy+2sxE6wsRBZQViQhQVBUUERhOfHBmbn5UsyefsC+5CEr9g/k8kvM5NJJs3h/ag04Z+2qwpkqQJZqkCW/gXQzvHDyfXydv65ePv5+P6FZsuv6d3r/sWcjfuqHxBQrmbvbXwAcSBWDyCshGD4CKGBaPH0TOUCHUyf9ZKIxPnNCxD3zp6go8sFMqgN8JWd5CgLaPf0US+G5dnGmaGYxAzEbGMqCwjxkGUQDzbQ0kVmGrNsIJ0sfGYDlsRpg8TZQFIc+d4RGNkDDiYbJGQA6erpdZ4lSMggmhbKDq7YjBUFQnZ06bQ994qK1nPdgEMz6WEg7wxjoAOxWUJem9ADzhN7CwDpo9uutuXCzpYJIUFoj06Yzj55ipMPhPkyDV4yE58juNKBByXbNB6QLuHYhIHSGw6ekg6QWCdCOlzpLtUBkrszdjkUEQLjVsHgf9dAqHyxS5yCIpKFuEbXQLqA2EVZSSr4shtxhLRdsP5LSd90/G8HSF4OOAhsWkrpVTpAuv77tuZMmY8Zv1PrZrrZky8hdBNxHgxPw0AoZ33Ju7cztjJQcKLd4pTFzo0PxEzFB2j4tKeAnIIPmuEDFR2LjVMUqFmFClnHBYd8D5R7wHDXYaWAtqIKZKkCWapAliqQpQpkaXRAf0ZAZCPMBxZJAAAAAElFTkSuQmCC" y="260.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="171" x="1042.5" y="323.3047">Main Load Balancer</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="1104" y="338.2168">[HTTPS]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1130" y="354.042"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="1041" y="370.3389">Allows access iptv, admin</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="1064" y="386.6357">and other services</text><!--MD5=[79a439086b036a57b90a01d7b2f8bbd1]
+entity admin--><rect fill="#438DD5" height="165.7813" style="stroke:#3C7FC0;stroke-width:1.5;" width="195" x="1382" y="161.9531"/><image height="48" width="48" x="1455.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAAhUlEQVR4Xu2OywnAMBTDslvn63idpz07DpiSQD5I+NTyIpXrfpZa8U9zR1AaQWmNoPcno24JauF2ghS3E6S4nSDF7QQpbj89qH8EpZ0eVP9LuJ0gxe07BPWsFib8BYIUf2GHoPooMeqWoBZuJ0hxO0GK2wlS3E6Q4vYdguaOoDSC0pYL+gAL7y4tduuAHQAAAABJRU5ErkJggg==" y="171.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="91" x="1434" y="234.8047">Admin GUI</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="55" x="1452" y="249.7168">[Laravel]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1481.5" y="265.542"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="1396" y="281.8389">Provides functionality for</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="1403" y="298.1357">IPTV Manager via web</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="1451.5" y="314.4326">browser</text><!--MD5=[890ab4395b2a1e4ddf7112372b2e8ea1]
+entity video_gateway--><rect fill="#438DD5" height="149.4844" style="stroke:#3C7FC0;stroke-width:1.5;" width="202" x="1716" y="178.4531"/><image height="48" width="48" x="1793" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACDUlEQVR4Xu2YTUoDQRCFc7ccwAt4AC/gATyArlyJOxcuXGbnStwJblyIRBACEggEFBUUQRgfVui8qepOZX6SGaGLtwjV3VWf1dU94wyGh/e90sC6ulUG8pSBPC2Bdo4frsZvxdYNSZFaA8H1/vWj527LkDowLYA6qQ0bAEpAerwLSwKJZzuyeTNQWTZvBirL5u0rUFfKQJ7+D5C48JC7nXyc38z3LyZ28SbkACnDA2/TZJxOPKuAxKav3wejZxurFXEi8fhAYtjK3dNHG7GhOIV4lk2NV6S9sycUY3T3knpZa71UHFw8yVMGuOhbG1reTq4tjiyeJJAI2zSeffIyGEpoZ9YThxWPAyQ6upzyyqK9OnFM8SyA0DQ4Tejck+tZtHmxg6qxWuknDiie+CmLHnWAKqYoeiVxNPHEgcTQPSol6sQTUFGbo5I4mnhWARV/DxN1Wat+soWsJA4lntI9hOjRo66Y+Nzht02zviiJAQrCNiks1In3Dr95tMnzjuOIJwIkwnHj2aoS6J4wFP7prCHK4AENDRO3C6rCQ3btmrJBlk2NGqBh1QLeO2wcD/EVUHvXQoTCAokBiz+OqHbBsQ9DzFr74qbYCaDCtEsqMZ9/dSEFfyVLAsF479A6wc+sfEniZm8I5HyO4b+Yd43bCDsb9dtorkU+WNkZqQRV/a7FP+n1RxnIUwby1DugX/1C9z0WzXZ6AAAAAElFTkSuQmCC" y="188.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="130" x="1752" y="251.3047">Video gateway</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="34" x="1800" y="266.2168">[HLS]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1819" y="282.042"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="1730" y="298.3389">Provides video stream via</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="1799" y="314.6357">https</text><!--MD5=[2bcde12eddc6c586aaacffa94340b74b]
+entity video_transcoder--><rect fill="#438DD5" height="133.1875" style="stroke:#3C7FC0;stroke-width:1.5;" width="173" x="2067.5" y="94.4531"/><image height="48" width="48" x="2130" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABqElEQVR4Xu2YTUoDQRCFc7c6gBfwAF7AA3iAuHIl7ly4cJmdK3EnuHEhEkEISCAgKEZQBCE+UhKqp7rTv9MzyhRv9bqq6yPUdHpmROO7XmmkrW41APkUB3R8tTi7fta+S0hGifa3KAJo9+RhtY5AJqRxPgr1qksRQNDB5CmQaUODEr26RXFAFMaUTEMJQORjyqGhNCByM2XSUDIQ2ZjyaSgHiEymIjQkgXaO7i+nb7xpzUBTtG4CwVp+fjdzawVab5h+gW5m782suoHfyQBqrncRTiB26kj3HYBM6b7/BWi6+Ii6VLik+yYCcWbjTEuQ7psFxBF7J5SS+7BTAAgxf/3aP5/pNK/kJuyUAeLAcR87WLKcnZJAHJPbF53vkixkpzzQav1neXgx11VasoqdVoA4cDTsnT7qWtc+7LQIhEn3XtZkPjttAQWeBbKEnfJAGOrw01IWslMSqEePfci4WCU3YScXCE944LhYJdqWAIoaF6t030SghHGxSvdNBCol3XcAMqX7/gWgrsIA6vxVGgAGUO8+NjAT3iIqY6Gd/XNMfzQA+dQ7oB92EmR+eUQO0gAAAABJRU5ErkJggg==" y="104.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="153" x="2077.5" y="167.3047">Video transcoder</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="34" x="2137" y="182.2168">[HLS]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="2156" y="198.042"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="144" x="2084" y="214.3389">Converts UDP to HLS</text><!--MD5=[0692b5dfde924ba3e826089aa4c150ba]
+entity video_cache--><rect fill="#438DD5" height="149.4844" style="stroke:#3C7FC0;stroke-width:1.5;" width="174" x="2067" y="262.4531"/><image height="48" width="48" x="2130" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACIElEQVR4Xu2XMUpEMRCGvVsO4AU8gBfwAB5AKyuxs7Cw3M5K7CwtRFYQBFlYEBQtFEHQnx0dZ2deZpK8t7jFG/5i39tJ8iUzmeRtpL3rtdKGffW/GoEijUCRRqBIjUCbBzf7Z7Pz6cvs+ePr117fP6fzt8nV0+7kwTYpVDXQ1tEtOBjCMZCB2/bgqw7o5PJRDxvZ9vGd7cdRKRDminDo0SLDBGxXvoqAMEvkhxoMbxCUndN7BJHcAI1HQFBiNdCkEiAMo2jwiIy2nlK1kWLFQCpSyGjrM6ACIJXFbVGokgeE5JA0g6wNpnR4MbfvWR6QrDfIG+tQK15vhykLhFxmGliYxaFU9HNMWSAQcOP+y9NZUTuZskAyXqg31qFcnTRklikLJE9NlDvrUCiHhkzt3CyQbMO1uFYhDZlkKgKy/5aokIaMmX6A2hrXSnZi/yX9rVAhUzONKrPWgbQUspCpmQbCzuB+cD5aB5LOIexDAbBkfWgg1A7uyqkjGihlmHrSQPIO41y6O4CSYepPI+s+zLlrdwMlwdSfJi0vjxOv5AClBdMgNOorxS+zHtAgUjs3nOFqgdTa4Hy0PkqNQOEdHllsPw38YJFagCgKmC5+oNzxlsF4eETOdn4zhXMgVQOF1dwa0EvWhlQHhFnq0SILs1ipDigt7tryEHAMbuULw6oGYqH8Y0gckzJj8Iid5ZwModqBVqQRKNIIFGkEirR2QN9jzrem9t5oxwAAAABJRU5ErkJggg==" y="272.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="107" x="2100.5" y="335.3047">Video cache</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="34" x="2137" y="350.2168">[HLS]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="2156" y="366.042"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="2081" y="382.3389">Provides video cache</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="2129.5" y="398.6357">service</text><!--MD5=[2b2d5ad518bf6746de4ffeb5be0566d4]
+entity manager--><rect fill="#08427B" height="135.5156" style="stroke:#073B6F;stroke-width:1.5;" width="159" x="631" y="197.9531"/><image height="48" width="48" x="686.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABJElEQVR4Xu2WsRHCMAxFKRmBEZiDAViAUVJSwgQMQMUANNxBT0fJDhQUtKA7N7EUWZZyThxO734Ftv/Dd4mYzVdNVZnRj8aNC0lxISl2od3x9mVoDme6PjNGoYRNwOxkERJtAjYntVCmTcDgpBNarLftProgJGcNFxeSUr0QVF7uz/aJ5YAiqEsJwdev9wfvKwnUIadI6HR94B3lgVJWaODrCUApK4TXDoULSbiQxHSEtI99e6/5h6Uee+2LkaoYhFIvRjQ7RaiKVkgYHZDlZp8/XKlKCF7HAHcjDNcaMgUhfLM8dG//E/5LqD+03YViaLsLxdB2F4qh7R1C2plvBs15Vgjmq/aPkQGogCLa3iEUnIreExzeacMKjRgXkuJCUqoT+gFIyJ8MCMwZ3QAAAABJRU5ErkJggg==" y="207.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="124" x="648.5" y="270.8047">IPTV Manager</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="712.5" y="287.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="645" y="303.8701">Manages offerings,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="649" y="320.167">customers, video.</text><!--MD5=[e507fdebf15c06ebd252dbe51204c2b6]
+entity tvsignal_provider--><rect fill="#999999" height="119.2188" style="stroke:#8A8A8A;stroke-width:1.5;" width="170" x="2445" y="176.4531"/><image height="48" width="48" x="2506" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACPUlEQVR4Xu1YobLCMBDk//8gCofD4VA4HA6HwuFwuL6dhkm2t5cmFAb6ZroKNrnNcndJSldhZlhZ4tdYDNWwGKohG1qv15fLpfs6sCiWtoZAPR4PO/dbwNLJ09PQT3LDgIGBITv+CxQNReY70HUXQ0Pouv/NEPOfQkk/MnM1VAIHfAol/chUDB0Oh/v9zmHvg/WVrxiK2G631+uVg98BKyvfZCgCtm63G0tMA2sqP2hqXHLIxOl02u12OWiI4/HIKhPAaso7uywBF57rDKl6p7FYSvkxQxFYe7/fZ40eeFqYXD7WUb5uKAKl3Gw2WanHtE5nBeVzU+NHoxZIxvl8Lj2saaom5InDlS/uMphzn9rQ8jxtwqMmhytfNBSBMmkOkEKeA+tmwjg4VvmKoQic1xzZSZ7w1UwYAQcq/zSEtGM3oUlxzGjzhj4NpjSmn9oPAo5S3t9l7laHUeOJrePE4qERkGSzoQh0j8mWaRdklEe121xwiPJjhrr+MjGHteknTmRjkkisbCj0Gxjq7lY3njgT+MxDLZ3E85V3dhnKZGwhT1w7fOZRttty9abJodFQhJE2meBLI/3pnABaoWYoiKeRdqGg16AiuamRAzRsntuDa4fC8RAfAe5TSguSQqeGImCLX46YdsG2T0Ps1Rzc7SDtgqFO2qW0MO9/cyAl/iXEWMcQwLVD6ySevfIhid2e+CBqLai8juFfzFXjNkJlXT6IWhXOCyudkeW9SrfzVfiv9OaDxVANi6EaZmfoD31MtI8C/fQiAAAAAElFTkSuQmCC" y="186.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="150" x="2455" y="249.3047">Channel provider</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="2532" y="266.0732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="2486" y="282.3701">Video Stream</text><!--MD5=[45d5cb3e1365760c1951f98951be5592]
+reverse link customer to tv--><path d="M232.5,474.9531 C270.77,474.9531 312.95,474.9531 347.78,474.9531 " fill="none" id="customer-backto-tv" style="stroke:#008000;stroke-width:2.0;"/><polygon fill="#008000" points="224.39,474.9531,232.39,477.9531,232.39,471.9531,224.39,474.9531" style="stroke:#008000;stroke-width:2.0;"/><text fill="#008000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="255" y="458.0918">Watches</text><text fill="#008000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="46" x="263" y="472.0605">[Vision]</text><!--MD5=[89f7e71cf10542459554a825aa2a09b9]
+link manager to caddy--><path d="M790.14,277.1231 C854.82,286.3031 947.15,299.4131 1018.8,309.5931 " fill="none" id="manager-to-caddy" style="stroke:#FFA500;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFA500" points="1026.99,310.7531,1019.4854,306.6689,1018.6503,312.6105,1026.99,310.7531" style="stroke:#FFA500;stroke-width:1.0;"/><text fill="#FFA500" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="65" x="890.5" y="269.0918">Manages</text><text fill="#FFA500" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="60" x="893" y="283.0605">[Browser]</text><!--MD5=[14988d430513bf6f73b07778f892a888]
+link caddy to admin--><path d="M1229.15,302.0331 C1274.53,291.6431 1328.18,279.3631 1374.06,268.8631 " fill="none" id="caddy-to-admin" style="stroke:#FFA500;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFA500" points="1381.95,267.0531,1373.4823,265.9141,1374.8212,271.7628,1381.95,267.0531" style="stroke:#FFA500;stroke-width:1.0;"/><text fill="#FFA500" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="91" x="1260" y="259.0918">Passthrough</text><text fill="#FFA500" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="60" x="1275.5" y="273.0605">[Browser]</text><!--MD5=[7868289d43c8ae9fc61a717ca1fd8008]
+reverse link tv to stb--><path d="M506.53,474.9531 C536.23,474.9531 570.2,474.9531 601.73,474.9531 " fill="none" id="tv-backto-stb" style="stroke:#008000;stroke-width:2.0;"/><polygon fill="#008000" points="498.27,474.9531,506.27,477.9531,506.27,471.9531,498.27,474.9531" style="stroke:#008000;stroke-width:2.0;"/><text fill="#008000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="35" x="532.5" y="458.0918">Uses</text><text fill="#008000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="42" x="529" y="472.0605">[HDMI]</text><!--MD5=[93afa37736c02daa3bd0cdd4a9dba1c3]
+reverse link stb to caddy--><path d="M826.63,433.3931 C889.41,410.7231 966.38,382.9431 1026.69,361.1631 " fill="none" id="stb-backto-caddy" style="stroke:#008000;stroke-width:2.0;"/><polygon fill="#008000" points="819.04,436.1331,827.5834,436.2368,825.545,430.5937,819.04,436.1331" style="stroke:#008000;stroke-width:2.0;"/><text fill="#008000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="138" x="852" y="342.0918">Gets stb config and</text><text fill="#008000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="100" x="873" y="356.0605">video streams</text><text fill="#008000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="899" y="370.0293">[HTTPS]</text><!--MD5=[20736a3152ebc557d73732bf903b2ddb]
+link video_gateway to caddy--><path d="M1715.97,316.7831 C1674.63,339.5831 1625.18,362.4531 1577,373.9531 C1462.94,401.1831 1328.87,379.7331 1237.32,357.2731 " fill="none" id="video_gateway-to-caddy" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1229.43,355.3031,1236.4614,360.1569,1237.9192,354.3367,1229.43,355.3031" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="124" x="1417.5" y="357.0918">Streams traffic to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="1455.5" y="371.0605">[HTTPS]</text><!--MD5=[017b3d7e70a94e1296b9cf0c62dad5c0]
+reverse link video_gateway to video_transcoder--><path d="M1925.93,223.3131 C1971.7,210.7431 2024.29,196.3031 2067.33,184.4831 " fill="none" id="video_gateway-backto-video_transcoder" style="stroke:#008000;stroke-width:2.0;"/><polygon fill="#008000" points="1918.06,225.4731,1926.5684,226.2518,1924.9825,220.4652,1918.06,225.4731" style="stroke:#008000;stroke-width:2.0;"/><text fill="#008000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="87" x="1949" y="177.0918">Gets stream</text><text fill="#008000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="1968.5" y="191.0605">[HTTPS]</text><!--MD5=[6ef2be9f489ec2ab24798aa94d98b05c]
+reverse link video_gateway to video_cache--><path d="M1926.24,285.1531 C1933.59,287.1631 1940.89,289.1231 1948,290.9531 C1986.85,300.9831 2030.16,310.8831 2066.93,318.9131 " fill="none" id="video_gateway-backto-video_cache" style="stroke:#008000;stroke-width:2.0;"/><polygon fill="#008000" points="1918.25,282.9531,1925.1615,287.9762,1926.7601,282.1931,1918.25,282.9531" style="stroke:#008000;stroke-width:2.0;"/><text fill="#008000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="87" x="1949" y="274.0918">Gets stream</text><text fill="#008000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="1968.5" y="288.0605">[HTTPS]</text><!--MD5=[13efe11abc44ebc20c336d216b5b33b0]
+link admin to video_gateway--><path d="M1577.09,247.2531 C1617.92,248.2331 1665.65,249.3631 1707.67,250.3731 " fill="none" id="admin-to-video_gateway" style="stroke:#FFA500;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFA500" points="1715.72,250.5631,1707.7975,247.3641,1707.6475,253.3623,1715.72,250.5631" style="stroke:#FFA500;stroke-width:1.0;"/><text fill="#FFA500" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="77" x="1608" y="232.0918">Configures</text><text fill="#FFA500" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="1622.5" y="246.0605">[HTTPS]</text><!--MD5=[d5b7131a74657e0584dc5617c27f163f]
+link admin to video_transcoder--><path d="M1577.08,202.4931 C1618.93,186.2131 1669.02,169.5031 1716,160.9531 C1832.72,139.7231 1969.89,144.4231 2058.99,151.3031 " fill="none" id="admin-to-video_transcoder" style="stroke:#FFA500;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFA500" points="2067.19,151.9531,2059.4506,148.3335,2058.9789,154.315,2067.19,151.9531" style="stroke:#FFA500;stroke-width:1.0;"/><text fill="#FFA500" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="77" x="1778.5" y="129.0918">Configures</text><text fill="#FFA500" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="1793" y="143.0605">[HTTPS]</text><!--MD5=[fe85172ed968f28eda089bc5e8b16313]
+link admin to video_cache--><path d="M1577,312.1031 C1617.92,336.6731 1667.34,361.5031 1716,373.9531 C1831.46,403.5031 1969.1,383.0831 2058.63,362.7531 " fill="none" id="admin-to-video_cache" style="stroke:#FFA500;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#FFA500" points="2066.6,360.9131,2058.1303,359.7888,2059.4794,365.6352,2066.6,360.9131" style="stroke:#FFA500;stroke-width:1.0;"/><text fill="#FFA500" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="77" x="1778.5" y="357.0918">Configures</text><text fill="#FFA500" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="1793" y="371.0605">[HTTPS]</text><!--MD5=[ca89411a865e2fd6d966126b2d6888b5]
+reverse link video_transcoder to tvsignal_provider--><path d="M2248.81,179.7631 C2309.06,191.8431 2386.64,207.4031 2444.89,219.0831 " fill="none" id="video_transcoder-backto-tvsignal_provider" style="stroke:#008000;stroke-width:2.0;"/><polygon fill="#008000" points="2240.8,178.1631,2248.0547,182.6763,2249.2335,176.7933,2240.8,178.1631" style="stroke:#008000;stroke-width:2.0;"/><text fill="#008000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="140" x="2274" y="169.0918">Gets channel signal</text><text fill="#008000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="35" x="2326.5" y="183.0605">[UDP]</text><!--MD5=[fec442cd426d90d47db0ea5fb57c4207]
+reverse link video_cache to tvsignal_provider--><path d="M2249.27,311.4931 C2309.41,295.2531 2386.69,274.3831 2444.77,258.7031 " fill="none" id="video_cache-backto-tvsignal_provider" style="stroke:#008000;stroke-width:2.0;"/><polygon fill="#008000" points="2241.27,313.6531,2249.7753,314.4651,2248.212,308.6723,2241.27,313.6531" style="stroke:#008000;stroke-width:2.0;"/><text fill="#008000" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="122" x="2283" y="252.0918">Gets video signal</text><text fill="#008000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="34" x="2327" y="266.0605">[HLS]</text><rect fill="#FFFFFF" height="30.2969" rx="5" ry="5" style="stroke:#FFFFFF;stroke-width:1.0;" width="75" x="2524" y="577.9531"/><rect height="16.2969" style="stroke:none;stroke-width:1.0;fill:none;" width="63" x="2530" y="584.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="59" x="2530" y="597.9482">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="2593" y="597.9482"/><line style="stroke:#00000000;stroke-width:1.0;" x1="2530" x2="2593" y1="584.9531" y2="584.9531"/><line style="stroke:#00000000;stroke-width:1.0;" x1="2530" x2="2593" y1="601.25" y2="601.25"/><line style="stroke:#00000000;stroke-width:1.0;" x1="2530" x2="2530" y1="584.9531" y2="601.25"/><line style="stroke:#00000000;stroke-width:1.0;" x1="2593" x2="2593" y1="584.9531" y2="601.25"/><!--MD5=[7f53f7c8b7f8751c9c4b917daa360b25]
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+!define GOVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/govicons
+!define MATERIAL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/material
+!define WEATHER https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/weather
+
+!define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
+
+!include DEVICONS/go.puml
+!include DEVICONS/terminal.puml
+!include GOVICONS/poison.puml
+!include MATERIAL/business_center.puml
+!include MATERIAL/cached.puml
+!include MATERIAL/cast.puml
+!include MATERIAL/cast_connected.puml
+!include MATERIAL/dashboard.puml
+!include MATERIAL/live_tv.puml
+!include WEATHER/cloud.puml
+
+!include FONTAWESOME/users.puml
+
+AddRelTag("admin", $textColor="orange", $lineColor="orange", $lineStyle = DashedLine())
+AddRelTag("video", $textColor="green", $lineColor="green", $lineStyle = BoldLine())
+
+LAYOUT_LANDSCAPE()
+SHOW_LEGEND()
+
+title Container diagram for Open Source IPTV
+
+Person(manager, "IPTV Manager", "Manages offerings, customers, video.", $sprite="business_center")
+
+System_Boundary(home, "Customer Home") {
+    Person_Ext(customer, "IPTV Customer", "A customer, client for the IPTV (Watching TV).", $sprite="users")
+    Container(tv, "TV Set", "Sony, Samsung, LG", "Shows the picture", $sprite="poison")
+    Container(stb, "STB", "No Name STB", "Gets the signal from Service Provider", $sprite="terminal")
+}
+
+System_Boundary(c1, "Service Provider (ISP/TV)") {
+    Container(caddy, "Main Load Balancer", "HTTPS", "Allows access iptv, admin and other services", $sprite="cloud")
+    Container(admin, "Admin GUI", "Laravel", "Provides functionality for IPTV Manager via web browser", $sprite="dashboard")
+    Container(video_gateway, "Video gateway", "HLS", "Provides video stream via https",  $sprite="cast")
+    Container(video_transcoder, "Video transcoder", "HLS", "Converts UDP to HLS", $sprite="live_tv")
+    Container(video_cache, "Video cache", "HLS", "Provides video cache service", $sprite="cached")
+}
+
+System_Ext(tvsignal_provider, "Channel provider", "Video Stream", $sprite="cast_connected")
+
+Rel_Back(customer, tv, "Watches", "Vision", $tags="video")
+Rel(manager, caddy, "Manages", "Browser", $tags="admin")
+Rel(caddy, admin, "Passthrough", "Browser", $tags="admin")
+Rel_Back(tv, stb, "Uses", "HDMI", $tags="video")
+Rel_Back(stb, caddy, "Gets stb config and video streams", "HTTPS", $tags="video")
+
+Rel(video_gateway, caddy, "Streams traffic to", "HTTPS")
+
+Rel_Back(video_gateway, video_transcoder, "Gets stream", "HTTPS", $tags="video")
+Rel_Back(video_gateway, video_cache, "Gets stream", "HTTPS", $tags="video")
+
+
+Rel(admin, video_gateway, "Configures", "HTTPS", $tags="admin")
+Rel(admin, video_transcoder, "Configures", "HTTPS", $tags="admin")
+Rel(admin, video_cache, "Configures", "HTTPS", $tags="admin")
+
+Rel_Back(video_transcoder, tvsignal_provider, "Gets channel signal", "UDP", $tags="video")
+Rel_Back(video_cache, tvsignal_provider, "Gets video signal", "HLS", $tags="video")
+
+
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam shadowing<<legendArea>> false
+skinparam rectangle<<legendArea>> {
+    backgroundcolor #00000000
+    bordercolor #00000000
+}
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam actor {
+    StereotypeFontSize 12
+    shadowing false
+    style awesome
+}
+
+skinparam person {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam package {
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontStyle plain
+    BackgroundColor transparent
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 6
+    StereotypeFontColor transparent
+    FontColor #444444
+    BorderColor #444444
+    BackgroundColor transparent
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam database<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam queue<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam actor<<person>> {
+    StereotypeFontColor #08427B
+    FontColor #08427B
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+skinparam person<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam database<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_person>> {
+    StereotypeFontColor #686868
+    FontColor #686868
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+skinparam person<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam database<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam queue<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam actor<<system>> {
+    StereotypeFontColor #1168BD
+    FontColor #1168BD
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+skinparam person<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam database<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam queue<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam actor<<external_system>> {
+    StereotypeFontColor #999999
+    FontColor #999999
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+skinparam person<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+
+
+
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+sprite $person2 [48x48/16] {
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000002578888300000000005888864100000000000
+0000000007DFFFFFFFFD9643347BFFFFFFFFFB4000000000
+00000004EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB10000000
+0000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD2000000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+00003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+0000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF50000
+0003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD0000
+0009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF2000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB000
+001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000
+000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF8000
+000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF6000
+0009FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFF2000
+0003FFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFFD0000
+0000BFFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFF50000
+00003FFFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFFB00000
+000006FFFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFFE100000
+0000007FFFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFFD2000000
+00000004EFFF8FFFFFFFFFFFFFFFFFFFFFF8FFFB10000000
+0000000007DF8FFFFFFFFFFFFFFFFFFFFFF8FB4000000000
+000000000002578888888888888888888864100000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam actor<<container>> {
+    StereotypeFontColor #438DD5
+    FontColor #438DD5
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+skinparam person<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam actor<<external_container>> {
+    StereotypeFontColor #B3B3B3
+    FontColor #B3B3B3
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+skinparam person<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sprite $go [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000156677666673000000000000000000
+000000000000000056510000000003640440000000000000
+00000000000555782233200000433314B226300000000000
+000000000063008031000400040000313830700000000000
+0000000000606C13000000304120000408C0700000000000
+0000000000606703BD1000303EF400030170700000000000
+0000000000446103FF2000303BE200020087000000000000
+000000000003A00333000030120000120042000000000000
+00000000000070004100047EC33214300005000000000000
+0000000000006000023323AEB50110000006000000000000
+000000000001500000001100003000000006000000000000
+000000000002400000000356452000000006000000000000
+000000000002300000000034030000000006000000000000
+000000000001400000000036330000000006000000000000
+000000000000500000000000000000000006000000000000
+000000000000600000000000000000000006000000000000
+000000000000600000000000000000000005000000000000
+000000000000600000000000000000000006000000000000
+000000000000600000000000000000000006100000000000
+000000000023700000000000000000000006240000000000
+000000000120600000000000000000000006032000000000
+000000000053800000000000000000000006330000000000
+000000000000600000000000000000000006000000000000
+000000000000600000000000000000000006000000000000
+000000000000600000000000000000000006000000000000
+000000000000500000000000000000000005000000000000
+000000000000500000000000000000000005000000000000
+000000000000500000000000000000000005000000000000
+000000000000500000000000000000000006000000000000
+000000000000400000000000000000000007000000000000
+000000000000500000000000000000000005000000000000
+000000000000600000000000000000000014000000000000
+000000000000610000000000000000000060000000000000
+000000000000070000000000000000000160000000000000
+000000000000034000000000000000000800000000000000
+000000000000007510000000000000014600000000000000
+000000000000021032000000000000670030000000000000
+000000000000042045664221134666113140000000000000
+000000000000043300002345431000001330000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV GO>> White
+sprite $terminal [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000009EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEB10000000
+00000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFC2DFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFC001DFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFF50001DFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFF40001DFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFF40001DFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFF40001DFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFF40001DFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFF70000BFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFF70000AFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFF70000AFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFF70000AFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFF70000BFFFFEEEEEEEEEFFFFFFFFFF0000000
+0000000CFFFF9000BFFFFB000000000AFFFFFFFFF0000000
+0000000CFFFFF90BFFFFFB000000000AFFFFFFFFF0000000
+0000000CFFFFFFEFFFFFFEAAAAAAAAAEFFFFFFFFF0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+00000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+00000000AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB20000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV TERMINAL>> White
+sprite $poison [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000002689963000000000000000000000
+0000000000000000005DFFFFFFFD50000000000000000000
+00000000000000000AFFFFFFFFFFFB000000000000000000
+00000000000000009FFFFFFFFFFFFFB00000000000000000
+0000000000000003FFFFFFFFFFFFFFF60000000000000000
+000000000000000AFFFFFFFFFFFFFFFC0000000000000000
+000000000000000EFFFFFFFFFFFFFFFF0000000000000000
+000000000000001FFFFFFFFFFFFFFFFF2000000000000000
+000000000000001FFFB78DFFFD87AFFF2000000000000000
+000000000000000EFB0000AFB0000AFF0000000000000000
+0000000000000009F800007F900006FB0000000000000000
+0000000000000002FB0000CFE0000AF40000000000000000
+0000000000000000BFB67CE5DD76AFD00000000000000000
+0000000000000000AFFFFF704FFFFFC00000000000000000
+0000000000000000EFFFFF000EFFFFF10000000000000000
+0000000000000000AFFFFFBDAFFFFFB00000000000000000
+0000000000000372047FFFFFFFFF73006700000000000000
+0000000000001FFE000BFFFFFFFD0007FF80000000000000
+0000000000003FFF20002AD3BC20000AFFB0000000000000
+000000000000BFFFFB500000000039EFFFF3000000000000
+000000000000FFFFFFFFA400017DFFFFFFF8000000000000
+000000000000AFD38EFFFE76CFFFFFB56FE3000000000000
+000000000000010000488AFFFFFC61000100000000000000
+0000000000001630038EFFFFE98BB5000540000000000000
+000000000000DFF8DFFFFF942CFFFFF9BFF4000000000000
+000000000000FFFFFFFB50000038EFFFFFF7000000000000
+0000000000008FFFC7100000000004AFFFE1000000000000
+0000000000003FFF100000000000000AFFA0000000000000
+0000000000000DFC0000000000000005FF50000000000000
+000000000000003000000000000000002100000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<GOV POISON>> White
+sprite $business_center [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+00000000000000000008FFFFFFFF70000000000000000000
+0000000000000000008FFFFFFFFFF7000000000000000000
+000000000000000008FFFFFFFFFFFF700000000000000000
+00000000000000008FFFFFFFFFFFFFF70000000000000000
+0000000000000001FFFF00000000FFFF0000000000000000
+0000000000000001FFFF00000000FFFF0000000000000000
+0000000000000001FFFF00000000FFFF0000000000000000
+0000000000000001FFFF00000000FFFF0000000000000000
+000001BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB100000
+00001EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000
+0000AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA0000
+0000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE0000
+0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+0000EFFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFFE0000
+0000AFFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFFA0000
+00001FFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFE10000
+000002BFFFFFFFFFFFFF00000000FFFFFFFFFFFFFA100000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000FFFFFFFFFFFFFF00000000FFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFF00000000FFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000
+000000AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000000
+0000002EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE2000000
+00000002AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA20000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/material BUSINESS_CENTER>> White
+sprite $cached [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+00000000000000000016ADFFFEC950000000000000000000
+00000000000000002AFFFFFFFFFFFF910000000000000000
+0000000000000008FFFFFFFFFFFFFFFF3000000000000000
+00000000000001CFFFFFFFFFFFFFFFF80000000000000000
+0000000000003EFFFFFE94200148DF800000000000000000
+000000000001EFFFFE600000000003000000000000000000
+00000000000CFFFFA0000000000000000000000000000000
+00000000008FFFF800000000000000000000000000000000
+0000000002FFFFA000000000000000000000087000000000
+000000000AFFFE00000000000000000000008FF700000000
+000000001FFFF60000000000000000000008FFFF70000000
+000000006FFFE0000000000000000000008FFFFFF7000000
+00000000AFFF9000000000000000000008FFFFFFFF700000
+00000000DFFF400000000000000000008FFFFFFFFFF80000
+00000000FFFF20000000000000000008FFFFFFFFFFFF8000
+00000000FFFF0000000000000000008FFFFFFFFFFFFFF800
+008FFFFFFFFFFFFFF8000000000000000000FFFF00000000
+0008FFFFFFFFFFFF80000000000000000002FFFF00000000
+00008FFFFFFFFFF800000000000000000004FFFC00000000
+000007FFFFFFFF8000000000000000000009FFF900000000
+0000007FFFFFF8000000000000000000000EFFF500000000
+00000007FFFF80000000000000000000006FFFF100000000
+000000007FF80000000000000000000000EFFF9000000000
+000000000780000000000000000000000AFFFF2000000000
+000000000000000000000000000000008FFFF80000000000
+0000000000000000000000000000000AFFFFD00000000000
+000000000000000000300000000006EFFFFE200000000000
+000000000000000008FD84100249EFFFFFE3000000000000
+00000000000000008FFFFFFFFFFFFFFFFD20000000000000
+0000000000000003FFFFFFFFFFFFFFFF8000000000000000
+000000000000000019FFFFFFFFFFFF920000000000000000
+000000000000000000059CEFFFCA50000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/material CACHED>> White
+sprite $cast [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0001AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA1000
+001EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100
+00AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00
+00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00
+00FFFF000000000000000000000000000000000000FFFF00
+00FFFF000000000000000000000000000000000000FFFF00
+00FFFF000000000000000000000000000000000000FFFF00
+00FFFF000000000000000000000000000000000000FFFF00
+00FFFF000000000000000000000000000000000000FFFF00
+00FFFF000000000000000000000000000000000000FFFF00
+000000000000000000000000000000000000000000FFFF00
+000000000000000000000000000000000000000000FFFF00
+000000000000000000000000000000000000000000FFFF00
+000000000000000000000000000000000000000000FFFF00
+00FFEB840000000000000000000000000000000000FFFF00
+00FFFFFFFA40000000000000000000000000000000FFFF00
+00FFFFFFFFFD500000000000000000000000000000FFFF00
+00FFFFFFFFFFFB2000000000000000000000000000FFFF00
+0001359EFFFFFFF500000000000000000000000000FFFF00
+000000003AFFFFFF80000000000000000000000000FFFF00
+00000000002CFFFFF9000000000000000000000000FFFF00
+0000000000006FFFFF800000000000000000000000FFFF00
+00EDB720000003EFFFF50000000000000000000000FFFF00
+00FFFFFD5000002EFFFF2000000000000000000000FFFF00
+00FFFFFFFC200003FFFFB000000000000000000000FFFF00
+00FFFFFFFFE400006FFFF500000000000000000000FFFF00
+00015AFFFFFF40000CFFFC00000000000000000000FFFF00
+0000002AFFFFE20002FFFF40000000000000000000FFFF00
+000000007FFFFC0000BFFFA0000000000000000000FFFF00
+0000000007FFFF50004FFFF0000000000000000000FFFF00
+00FC600000AFFFE0000EFFF4000000000000000000FFFF00
+00FFFC10002FFFF3000AFFF8000000000000000000FFFF00
+00FFFFC0000AFFF80006FFFB0000FFFFFFFFFFFFFFFFFF00
+00FFFFF60005FFFC0003FFFD0000FFFFFFFFFFFFFFFFFA00
+00FFFFFB0002FFFE0001FFFE0000FFFFFFFFFFFFFFFFE100
+00FFFFFE0000FFFF0000FFFF0000FFFFFFFFFFFFFFFA1000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/material CAST>> White
+sprite $cast_connected [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0001AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA1000
+001EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100
+00AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00
+00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00
+00FFFF000000000000000000000000000000000000FFFF00
+00FFFF000000000000000000000000000000000000FFFF00
+00FFFF000000000000000000000000000000000000FFFF00
+00FFFF000000000000000000000000000000000000FFFF00
+00FFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFF00
+00FFFF0000FFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFF00
+0000000000FFFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFF00
+00000000006DFFFFFFFFFFFFFFFFFFFFFFFFFF0000FFFF00
+0000000000003BFFFFFFFFFFFFFFFFFFFFFFFF0000FFFF00
+000000000000003CFFFFFFFFFFFFFFFFFFFFFF0000FFFF00
+00FFEB84000000007FFFFFFFFFFFFFFFFFFFFF0000FFFF00
+00FFFFFFFA40000003DFFFFFFFFFFFFFFFFFFF0000FFFF00
+00FFFFFFFFFD5000001CFFFFFFFFFFFFFFFFFF0000FFFF00
+00FFFFFFFFFFFB200000BFFFFFFFFFFFFFFFFF0000FFFF00
+0001359EFFFFFFF500000CFFFFFFFFFFFFFFFF0000FFFF00
+000000003AFFFFFF800001EFFFFFFFFFFFFFFF0000FFFF00
+00000000002CFFFFF900003FFFFFFFFFFFFFFF0000FFFF00
+0000000000006FFFFF800008FFFFFFFFFFFFFF0000FFFF00
+00EDB720000003EFFFF50000DFFFFFFFFFFFFF0000FFFF00
+00FFFFFD5000002EFFFF20004FFFFFFFFFFFFF0000FFFF00
+00FFFFFFFC200003FFFFB0000CFFFFFFFFFFFF0000FFFF00
+00FFFFFFFFE400006FFFF50004FFFFFFFFFFFF0000FFFF00
+00015AFFFFFF40000CFFFC0000DFFFFFFFFFFF0000FFFF00
+0000002AFFFFE20002FFFF40007FFFFFFFFFFF0000FFFF00
+000000007FFFFC0000BFFFA0000000000000000000FFFF00
+0000000007FFFF50004FFFF0000000000000000000FFFF00
+00FC600000AFFFE0000EFFF4000000000000000000FFFF00
+00FFFC10002FFFF3000AFFF8000000000000000000FFFF00
+00FFFFC0000AFFF80006FFFB0000FFFFFFFFFFFFFFFFFF00
+00FFFFF60005FFFC0003FFFD0000FFFFFFFFFFFFFFFFFA00
+00FFFFFB0002FFFE0001FFFE0000FFFFFFFFFFFFFFFFE100
+00FFFFFE0000FFFF0000FFFF0000FFFFFFFFFFFFFFFA1000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/material CAST_CONNECTED>> White
+sprite $dashboard [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF00000000000000000000000000
+000000FFFFFFFFFFFFFFFF00000000000000000000000000
+000000FFFFFFFFFFFFFFFF00000000000000000000000000
+000000FFFFFFFFFFFFFFFF00000000000000000000000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+00000000000000000000000000FFFFFFFFFFFFFFFF000000
+00000000000000000000000000FFFFFFFFFFFFFFFF000000
+00000000000000000000000000FFFFFFFFFFFFFFFF000000
+00000000000000000000000000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFF0000FFFFFFFFFFFFFFFF000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/material DASHBOARD>> White
+sprite $live_tv [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000780000000000000087000000000000000
+000000000000002FF80000000000008FF200000000000000
+0000000000000005FF800000000008FF5000000000000000
+00000000000000005FF8000000008FF50000000000000000
+000000000000000005FF80000008FF500000000000000000
+0000000000000000005FF800008FF5000000000000000000
+00000000000000000005FF8008FF50000000000000000000
+000000000000000000005FF88FF500000000000000000000
+0001AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA1000
+001EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100
+00BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00
+00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00
+00FFFF000000000000000000000000000000000000FFFF00
+00FFFF000000000000000000000000000000000000FFFF00
+00FFFF000000000000000000000000000000000000FFFF00
+00FFFF000000000000000000000000000000000000FFFF00
+00FFFF000000000000C20000000000000000000000FFFF00
+00FFFF000000000000FFA100000000000000000000FFFF00
+00FFFF000000000000FFFF70000000000000000000FFFF00
+00FFFF000000000000FFFFFD400000000000000000FFFF00
+00FFFF000000000000FFFFFFFB2000000000000000FFFF00
+00FFFF000000000000FFFFFFFFF900000000000000FFFF00
+00FFFF000000000000FFFFFFFFFFE6000000000000FFFF00
+00FFFF000000000000FFFFFFFFFFFFC30000000000FFFF00
+00FFFF000000000000FFFFFFFFFFFFD50000000000FFFF00
+00FFFF000000000000FFFFFFFFFFF7000000000000FFFF00
+00FFFF000000000000FFFFFFFFF910000000000000FFFF00
+00FFFF000000000000FFFFFFFB2000000000000000FFFF00
+00FFFF000000000000FFFFFD500000000000000000FFFF00
+00FFFF000000000000FFFE70000000000000000000FFFF00
+00FFFF000000000000FF9100000000000000000000FFFF00
+00FFFF000000000000B20000000000000000000000FFFF00
+00FFFF000000000000000000000000000000000000FFFF00
+00FFFF000000000000000000000000000000000000FFFF00
+00FFFF000000000000000000000000000000000000FFFF00
+00FFFF000000000000000000000000000000000000FFFF00
+00FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF00
+00BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00
+001EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100
+0001AEFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEA1000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/material LIVE_TV>> White
+sprite $cloud [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000017BDEEC940000000000000000000000
+0000000000000001AFFFFFFFFFD400000000000000000000
+000000000000004EFFFFFFFFFFFF90000000000000000000
+00000000000005FFFFD84336BFFFFB000000000000000000
+0000000000002FFFF600000002CFFF800000000000000000
+000000000000DFFF30000000000AFFF30000000000000000
+000000000005FFF5000000000000CFFB0000000000000000
+00000000000BFFB00000000000003FFF1000000000000000
+00000000002FFF400000000000000CFFA762000000000000
+000000005DFFFF1000000000000008FFFFFFD50000000000
+0000000BFFFFFE0000000000000005FFFFFFFFB100000000
+000000CFFFFDA70000000000000002999ACFFFFD00000000
+000009FFFC20000000000000000000000002BFFFA0000000
+00002FFFA00000000000000000000000000009FFF4000000
+00009FFD000000000000000000000000000000CFFB000000
+0000EFF60000000000000000000000000000004FFF000000
+0001FFF10000000000000000000000000000000FFF200000
+0002FFF00000000000000000000000000000000EFF300000
+0001FFF10000000000000000000000000000000FFF200000
+0000FFF40000000000000000000000000000003FFF000000
+0000AFFC000000000000000000000000000000AFFC000000
+00004FFF700000000000000000000000000005FFF5000000
+00000BFFF8000000000000000000000000006FFFC0000000
+000001DFFFD855555555555555555555558DFFFE10000000
+0000001DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE300000000
+000000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFA1000000000
+000000000169CCCCCCCCCCCCCCCCCCCCCCA7200000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/weather CLOUD>> White
+
+sprite $users [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000024310000000000000000000000
+000000000000000000018EFFFFC400000000000000000000
+0000000000000000003EFFFFFFFF90000000000000000000
+000000000000000002EFFFFFFFFFF9000000000000000000
+00000000000000000CFFFFFFFFFFFF400000000000000000
+0000006DFE8000004FFFFFFFFFFFFFC000004BFEA2000000
+000009FFFFFC00009FFFFFFFFFFFFFF10005FFFFFE200000
+00003FFFFFFF8000BFFFFFFFFFFFFFF3001FFFFFFFC00000
+00009FFFFFFFD000CFFFFFFFFFFFFFF4005FFFFFFFF10000
+0000AFFFFFFFE000AFFFFFFFFFFFFFF2006FFFFFFFF20000
+00007FFFFFFFC0006FFFFFFFFFFFFFE0004FFFFFFFF00000
+00001FFFFFFF50001FFFFFFFFFFFFF80000DFFFFFF900000
+000004FFFFF8000007FFFFFFFFFFFE100002DFFFFB000000
+000000179830000000AFFFFFFFFFF3000000069940000000
+00000000000000000007FFFFFFFC20000000000000000000
+0000012333310000000016ACB94000000000233332000000
+0001BFFFFFFFD3000000000000000000008FFFFFFFE60000
+000DFFFFFFFFE400000000000000000000AFFFFFFFFF6000
+007FFFFFFFFD1006BEFE8310025BFFD92006FFFFFFFFF000
+00CFFFFFFFE102DFFFFFFFFFFFFFFFFFF8007FFFFFFFF400
+00DFFFFFFF302FFFFFFFFFFFFFFFFFFFFFA00BFFFFFFF500
+00DFFFFFFB00EFFFFFFFFFFFFFFFFFFFFFF603FFFFFFF500
+00CFFFFFF407FFFFFFFFFFFFFFFFFFFFFFFE00CFFFFFF400
+006FFFFFF00DFFFFFFFFFFFFFFFFFFFFFFFF508FFFFFD000
+00037777601FFFFFFFFFFFFFFFFFFFFFFFFF902777761000
+00000000002FFFFFFFFFFFFFFFFFFFFFFFFFB00000000000
+00000000003FFFFFFFFFFFFFFFFFFFFFFFFFB00000000000
+00000000003FFFFFFFFFFFFFFFFFFFFFFFFFB00000000000
+00000000000FFFFFFFFFFFFFFFFFFFFFFFFF800000000000
+000000000009FFFFFFFFFFFFFFFFFFFFFFFF200000000000
+0000000000007DEEEEEEEEEEEEEEEEEEEEB2000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<FA5 USERS>> White
+
+skinparam arrow<<admin>> {
+    Color orange;text:orange;line.dashed
+}
+
+skinparam arrow<<video>> {
+    Color green;text:green;line.bold
+}
+
+
+left to right direction
+hide stereotype
+legend right
+<#00000000,#00000000>|<color:#000000>**Legend**</color> |
+endlegend
+
+title Container diagram for Open Source IPTV
+
+rectangle "<$business_center>\n==IPTV Manager\n\n Manages offerings, customers, video." <<person>> as manager 
+
+rectangle "==Customer Home\n<size:12>[System]</size>" <<boundary>> as home  {
+    rectangle "<$users>\n==IPTV Customer\n\n A customer, client for the IPTV (Watching TV)." <<external_person>> as customer 
+    rectangle "<$poison>\n==TV Set\n//<size:12>[Sony, Samsung, LG]</size>//\n\n Shows the picture" <<container>> as tv 
+    rectangle "<$terminal>\n==STB\n//<size:12>[No Name STB]</size>//\n\n Gets the signal from Service Provider" <<container>> as stb 
+}
+
+rectangle "==Service Provider (ISP/TV)\n<size:12>[System]</size>" <<boundary>> as c1  {
+    rectangle "<$cloud>\n==Main Load Balancer\n//<size:12>[HTTPS]</size>//\n\n Allows access iptv, admin and other services" <<container>> as caddy 
+    rectangle "<$dashboard>\n==Admin GUI\n//<size:12>[Laravel]</size>//\n\n Provides functionality for IPTV Manager via web browser" <<container>> as admin 
+    rectangle "<$cast>\n==Video gateway\n//<size:12>[HLS]</size>//\n\n Provides video stream via https" <<container>> as video_gateway 
+    rectangle "<$live_tv>\n==Video transcoder\n//<size:12>[HLS]</size>//\n\n Converts UDP to HLS" <<container>> as video_transcoder 
+    rectangle "<$cached>\n==Video cache\n//<size:12>[HLS]</size>//\n\n Provides video cache service" <<container>> as video_cache 
+}
+
+rectangle "<$cast_connected>\n==Channel provider\n\n Video Stream" <<external_system>> as tvsignal_provider 
+
+customer <<- - tv <<video>> : **Watches**\n//<size:12>[Vision]</size>//
+manager - ->> caddy <<admin>> : **Manages**\n//<size:12>[Browser]</size>//
+caddy - ->> admin <<admin>> : **Passthrough**\n//<size:12>[Browser]</size>//
+tv <<- - stb <<video>> : **Uses**\n//<size:12>[HDMI]</size>//
+stb <<- - caddy <<video>> : **Gets stb config and video streams**\n//<size:12>[HTTPS]</size>//
+
+video_gateway - ->> caddy : **Streams traffic to**\n//<size:12>[HTTPS]</size>//
+
+video_gateway <<- - video_transcoder <<video>> : **Gets stream**\n//<size:12>[HTTPS]</size>//
+video_gateway <<- - video_cache <<video>> : **Gets stream**\n//<size:12>[HTTPS]</size>//
+
+
+admin - ->> video_gateway <<admin>> : **Configures**\n//<size:12>[HTTPS]</size>//
+admin - ->> video_transcoder <<admin>> : **Configures**\n//<size:12>[HTTPS]</size>//
+admin - ->> video_cache <<admin>> : **Configures**\n//<size:12>[HTTPS]</size>//
+
+video_transcoder <<- - tvsignal_provider <<video>> : **Gets channel signal**\n//<size:12>[UDP]</size>//
+video_cache <<- - tvsignal_provider <<video>> : **Gets video signal**\n//<size:12>[HLS]</size>//
+
+
+@enduml
+
+PlantUML version 1.2021.14(Fri Nov 12 16:46:50 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
