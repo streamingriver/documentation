@@ -2,18 +2,41 @@
 
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/releases/v2/C4_Context.puml
 
+!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+!define GOVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/govicons
+!define MATERIAL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/material
+
+!define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
+
+!include DEVICONS/laravel.puml
+!include DEVICONS/go.puml
+!include DEVICONS/terminal.puml
+!include GOVICONS/poison.puml
+!include MATERIAL/business_center.puml
+
+
+!include FONTAWESOME/users.puml
+
 LAYOUT_WITH_LEGEND()
 
 title System Context diagram for open source iptv 
 
-Person(customer, "Personal Banking Customer", "A customer of the bank, with personal bank accounts.")
-System(banking_system, "Internet Banking System", "Allows customers to view information about their bank accounts, and make payments.")
+Person_Ext(customer, "IPTV Customer", "A customer, client for the IPTV (Watching TV).", $sprite="users")
+Person(manager, "IPTV Manager", "Manages offerings, customers, video.", $sprite="business_center")
 
-System_Ext(mail_system, "E-mail system", "The internal Microsoft Exchange e-mail system.")
-System_Ext(mainframe, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+System_Ext(tv, "Television set", "Connects to STB to view tv shows and movies.", $sprite="poison")
 
-Rel(customer, banking_system, "Uses")
-Rel_Back(customer, mail_system, "Sends e-mails to")
-Rel_Neighbor(banking_system, mail_system, "Sends e-mails", "SMTP")
-Rel(banking_system, mainframe, "Uses")
+System(stb, "STB", "Connects to the provider to get content.", $sprite="terminal")
+System(iptv, "IPTV endpoint", "Provides http endpoint for STB", $sprite="go")
+System(management, "sr-admin-gui", "Management platform", $sprite="laravel")
+
+
+Rel_Back(tv, stb, "Connected to", "HDMI")
+Rel(iptv, stb, "Gets config and video streams from", "HTTP")
+
+Rel(manager, management, "Manages offferings", "HTTP")
+Rel(tv, customer, "Watches TV", "Light")
+Rel(management, iptv, "Routes traffic to/from", "HTTP")
+
+
 @enduml

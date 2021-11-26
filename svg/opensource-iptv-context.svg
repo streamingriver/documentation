@@ -1,30 +1,56 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="750px" preserveAspectRatio="none" style="width:557px;height:750px;background:#FFFFFF;" version="1.1" viewBox="0 0 557 750" width="557px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="405" x="69.75" y="16.708">System Context diagram for open source iptv</text><!--MD5=[92848cbaf65985a669855153c5362c37]
-entity customer--><rect fill="#08427B" height="170.4375" style="stroke:#073B6F;stroke-width:1.5;" width="193" x="188.5" y="27.9531"/><image height="48" width="48" x="261" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACD0lEQVR4Xu2YoU4EMRCGT+4j8Ai8AhaH4QHgAUjQuFMECUgMIUgwJAgMhgQsAYUiJCiQIBBY+EITsjfTdme6V24v4c8vyGbb+ZjOtN0bNcvjQXmkH83WvYBWto6PLm6v7p7uH1/w2fXD+PBycX1Pv2l3IdDm/vn7x+dXQiAubRzoURa7gRZWd0iGRIiJbOnhnfYBQZNJjNbuyY2eJG8fkDE3bbG4ep6MHUAsgYxmE3nVs6VsBWJSGccsOlFPmLIViMzLOB7pCVO2AtHJMohH7Fh6zqitQK7m0rJvAVYgGcEpe//PLdDz65sM4pF9N7ICcXDKIB5Nv6j7tD0NoSdM2QrU9Gg0ewE1LqBhHR3BBdvj2vapnidjHxD/q6vd7Pvhr31AwcY8eXMTXAKECZZJFXuEq27aLgQK5uLMohCenGGuGewOxSjBvYBqeG6B+Nqiblggdjnc+ZXDy+FNFpFzw76O3UBAROuXh6FoiAcf5g9eTvUgzy0nWg6I8cXHRUpg5bOVBCo+KDpFajOf23GgPme7RSQ+lacIENUgJ6gg1k6HjgOlqnLqip4tEuhv0hNEMXUD0clyXE3p6pZA0S2nnvTlXwLJEZWlb7cTQH1+USgTN4VhAenm/wea1OCAOmqo6fE1WCb9WSKBah+rbUWPWAmE2Rvk0ApiB45eOyNAzU8xcTvj8KvkKEoOaIYeHNA3ZuygAvFMUO0AAAAASUVORK5CYII=" y="37.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="153" x="205.5" y="100.8047">Personal Banking</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="87" x="241.5" y="119.4297">Customer</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="287" y="136.1982"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="202.5" y="152.4951">A customer of the bank,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="218" y="168.792">with personal bank</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="251" y="185.0889">accounts.</text><!--MD5=[6c7a3b43a568b319c0b7c06f28312f5c]
-entity banking_system--><rect fill="#1168BD" height="138.7344" style="stroke:#3C7FC0;stroke-width:1.5;" width="218" x="7" y="272.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="150" x="38" y="297.8047">Internet Banking</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="66" x="83" y="316.4297">System</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="118" y="333.1982"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="29.5" y="349.4951">Allows customers to view</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194" x="17" y="365.792">information about their bank</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="140" x="44" y="382.0889">accounts, and make</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="80" y="398.3857">payments.</text><!--MD5=[bad929e9c876a7d1c1a3279f5945ebcd]
-entity mail_system--><rect fill="#999999" height="87.5156" style="stroke:#8A8A8A;stroke-width:1.5;" width="191" x="360.5" y="298.4531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="122" x="395" y="323.3047">E-mail system</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="458" y="340.0732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="381.5" y="356.3701">The internal Microsoft</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="370.5" y="372.667">Exchange e-mail system.</text><!--MD5=[c743dbdb72a31f48d179cb877e8a310f]
-entity mainframe--><rect fill="#999999" height="138.7344" style="stroke:#8A8A8A;stroke-width:1.5;" width="204" x="14" y="486.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="169" x="28.5" y="511.8047">Mainframe Banking</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="66" x="83" y="530.4297">System</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="118" y="547.1982"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="142" x="45" y="563.4951">Stores all of the core</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="180" x="24" y="579.792">banking information about</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="39" y="596.0889">customers, accounts,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="119" x="56.5" y="612.3857">transactions, etc.</text><!--MD5=[9523bf148e587b71906a6d0694ea5006]
-link customer to banking_system--><path d="M222.55,198.0231 C206.02,220.2731 188.28,244.1531 172.11,265.9231 " fill="none" id="customer-to-banking_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="167.14,272.6131,174.3169,267.9772,169.499,264.4012,167.14,272.6131" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="35" x="197" y="240.0918">Uses</text><!--MD5=[1512afb267713112638094d910711c5b]
-reverse link customer to mail_system--><path d="M353.02,204.4431 C377.31,236.7631 403.57,271.7031 423.49,298.2031 " fill="none" id="customer-backto-mail_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="348.19,198.0231,350.5988,206.2205,355.3949,202.6154,348.19,198.0231" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="118" x="381" y="240.0918">Sends e-mails to</text><!--MD5=[550ed093881c17a100d661edb2e38b29]
-link banking_system to mail_system--><path d="M225.45,342.4531 C266.13,342.4531 312.13,342.4531 352.29,342.4531 " fill="none" id="banking_system-to-mail_system" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="360.5,342.4531,352.5,339.4531,352.5,345.4531,360.5,342.4531" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="99" x="243.25" y="322.5918">Sends e-mails</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="42" x="271.75" y="336.5605">[SMTP]</text><!--MD5=[8a74bde8ad5e073671ecd18cf6e971c6]
-link banking_system to mainframe--><path d="M116,411.9931 C116,433.2331 116,456.7731 116,478.5431 " fill="none" id="banking_system-to-mainframe" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="116,486.7931,119,478.7931,113,478.7931,116,486.7931" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="35" x="117" y="454.0918">Uses</text><rect fill="#FFFFFF" height="95.4844" rx="5" ry="5" style="stroke:#FFFFFF;stroke-width:1.0;" width="129" x="406.5" y="638.6875"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="59" x="412.5" y="658.6826">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="475.5" y="658.6826"/><rect fill="#08427B" height="16.2969" style="stroke:none;stroke-width:1.0;" width="117" x="412.5" y="661.9844"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="416.5" y="674.9795">person</text><rect fill="#1168BD" height="16.2969" style="stroke:none;stroke-width:1.0;" width="117" x="412.5" y="678.2813"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="416.5" y="691.2764">system</text><rect fill="#686868" height="16.2969" style="stroke:none;stroke-width:1.0;" width="117" x="412.5" y="694.5781"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="416.5" y="707.5732">external person</text><rect fill="#999999" height="16.2969" style="stroke:none;stroke-width:1.0;" width="117" x="412.5" y="710.875"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="416.5" y="723.8701">external system</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="412.5" x2="529.5" y1="645.6875" y2="645.6875"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="412.5" x2="529.5" y1="661.9844" y2="661.9844"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="412.5" x2="529.5" y1="678.2813" y2="678.2813"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="412.5" x2="529.5" y1="694.5781" y2="694.5781"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="412.5" x2="529.5" y1="710.875" y2="710.875"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="412.5" x2="529.5" y1="727.1719" y2="727.1719"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="412.5" x2="412.5" y1="645.6875" y2="727.1719"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="529.5" x2="529.5" y1="645.6875" y2="727.1719"/><!--MD5=[6446a97bb5a9be399c78d2f2e82cc5a4]
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="973px" preserveAspectRatio="none" style="width:516px;height:973px;background:#FFFFFF;" version="1.1" viewBox="0 0 516 973" width="516px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacing" textLength="405" x="49.25" y="16.708">System Context diagram for open source iptv</text><!--MD5=[92848cbaf65985a669855153c5362c37]
+entity customer--><rect fill="#686868" height="135.5156" style="stroke:#8A8A8A;stroke-width:1.5;" width="201" x="7" y="713.9531"/><image height="48" width="48" x="83.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACRklEQVR4Xu2WK3PDMBCE+3ONg4ONg4ODjYONg4ODg83dHV0qn1c6nax02k7HH7Req72H9dH9MT74w2+zC/LYBXnsgjy+QdDxeDydTn3fHw4HHttOuyAcf71ep2maFY/HA+J46hYaBcEPkqIZx5EXVNMiCDEqqBGaNbUIQlz4/BxtscsIulwuz+cTO8IGZAmN4hg+2QC607X3+30OO99uNzhNE7pUEKwu75tOKKDr7nw+0yhkpZpWgpCqtEbQPskVK8GGsgrKeCyQurgSZN0eEYxzKhNIiGmU2hOh7rUShLjy9AC8dedkiRFBXvLYFxS1laBhGHh6QBtb2JrQ1yiUQpwjrARZkYbh7pwUqlCpXCJtV1xl6VXSyreM1MAeSg6EhjShPvQEgQV1wQMcCe2QEsuEcDPJWoiIjwGrbWYEVWL5hIRLu0s9LAj2YLteUXhUYAg3hlsQAf8L9xZo56zuRRB2t5oeYt8bIagE0edNA0g1XEnPXARlq0DAsvLVXco5pzW9BFkJMQd7YtSwEi7K20N+vTqmCAEaRLQZCxHEmt44q270EmT9EGL1pkVbT2wchWvHCLwEWYdJ6kAND2wEIZODrDSNvbckKDYu931YgyRKbzwoWFA2ZGJjwedNxF9b4axFUDbjZChrXhtiQ9oC9PNmKXuYOSjE4fpfaQ3yK0VG0kG693KnJt5PZ032b0o4gqwcbOM/CgK86xukT6sUX5D18m8g+3snfEFdaEWozOkNEKwaNV2loJ9kF+SxC/LYBXnsgjw+AUvXCHwjywsMAAAAAElFTkSuQmCC" y="723.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="134" x="40.5" y="786.8047">IPTV Customer</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="109.5" y="803.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="173" x="21" y="819.8701">A customer, client for the</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="134" x="40.5" y="836.167">IPTV (Watching TV).</text><!--MD5=[2b2d5ad518bf6746de4ffeb5be0566d4]
+entity manager--><rect fill="#08427B" height="135.5156" style="stroke:#073B6F;stroke-width:1.5;" width="159" x="290" y="27.9531"/><image height="48" width="48" x="345.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABJElEQVR4Xu2WsRHCMAxFKRmBEZiDAViAUVJSwgQMQMUANNxBT0fJDhQUtKA7N7EUWZZyThxO734Ftv/Dd4mYzVdNVZnRj8aNC0lxISl2od3x9mVoDme6PjNGoYRNwOxkERJtAjYntVCmTcDgpBNarLftProgJGcNFxeSUr0QVF7uz/aJ5YAiqEsJwdev9wfvKwnUIadI6HR94B3lgVJWaODrCUApK4TXDoULSbiQxHSEtI99e6/5h6Uee+2LkaoYhFIvRjQ7RaiKVkgYHZDlZp8/XKlKCF7HAHcjDNcaMgUhfLM8dG//E/5LqD+03YViaLsLxdB2F4qh7R1C2plvBs15Vgjmq/aPkQGogCLa3iEUnIreExzeacMKjRgXkuJCUqoT+gFIyJ8MCMwZ3QAAAABJRU5ErkJggg==" y="37.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="124" x="307.5" y="100.8047">IPTV Manager</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="371.5" y="117.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="304" y="133.8701">Manages offerings,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="308" y="150.167">customers, video.</text><!--MD5=[ef7db08e877ba5c9defef17d2f3bd496]
+entity tv--><rect fill="#999999" height="135.5156" style="stroke:#8A8A8A;stroke-width:1.5;" width="213" x="10" y="474.9531"/><image height="48" width="48" x="92.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACL0lEQVR4Xu2XLZPCMBCG+f//oAqHw+FQOFzdOVQdDofjnukemWXTNm86x93NTV4VNk3ydL8aNt0f0yYaflsNqKQGVFIDKul/Ae12u9Pp1Pf9xyjG+/0+PlSplUDH4/F2uz2mhJ3ZuEDWGqDL5RIpMg3DEJdpqgYiNPHwGa1jqgMiReKxiyKr4hYl1QEpwfK6Xq9xi5LqgO73ezyzpLhFSRVA2+02niaI1hA3WtRKIBL2fD7TgXzxM8aC3Uf2jUDdM2ShfOz4SePjrSHrnjWPG7wRl2Bkyhupr5xSUR0Q/s+PoZQw4jxvNA8dDgdvVFQHhKAxJnyAb6ABxb4kCAt2o+FnXCyoGihvRUBgxxnBvqIJdSuA8la0MEVhuqWSqoFyDxE+ojNpj4sFqUB8xQiNNRWiY5U1J2bTxchS7WWvRUlAqSX6UrLszuVzOXGHTrEgCch/5H3nZUykIOAB+Mji0JdTHPXwSUDBGfxcvhPCR58MOS7ebiUgv68XDvCtj8gSo7mrrRg1CSg1Ot6Sff2rM7ZmaP3ayxxp3xAe+04PdePb+584ph+VVztkQPjnq7qRBMSO/i9O7qfH6APyBvswyicZY/2jJgGltAgXIBMcnEd95VFjKhWEyCQBvZ7ypclam3SeSWyPEhBnpH1xA1sX0wJ/+PQCsbjEJAH5xijua0pMDOLcjCSg7plGtTcKYmpAeXDnpAJ1o5+iSRDJXuXUCqCfUQMqqQGV1IBKakAlfQJocsYgVkCpgAAAAABJRU5ErkJggg==" y="484.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="122" x="55.5" y="547.8047">Television set</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="118.5" y="564.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="185" x="24" y="580.8701">Connects to STB to view tv</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="132" x="50.5" y="597.167">shows and movies.</text><!--MD5=[001e9f87fc4374f29b99c417a9689855]
+entity stb--><rect fill="#1168BD" height="135.5156" style="stroke:#3C7FC0;stroke-width:1.5;" width="218" x="251.5" y="713.9531"/><image height="48" width="48" x="336.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABT0lEQVR4Xu2XMW4CMRBF9wpzgxwhR+EIlKlTp+AGUNNwA2jTRFEi0SEokGgooKABCUWRohRpnBEIC/vjHZv1areYr98wNrwnYMFb0NNbq1rgqNmqkFQVkqpCUlVIalBo9Ln7+vmrqe+r48PzB0KDQv3Xrak57ITcoNBi++2/QA1Brgq5QW6CEE8eX6abw683rxLkxgrxw/OcL42MTsiNFeoOl3YpoxNyKVKI0xnM7WouJ+RSvJCpwQm5lCRkcjshl1KFTFYn5NIdQr3x+non/wP4O6KDXEoV8mwms72/IyXIpSShvDamolB2G1NFqPx7g8cd2+ttGORSpBAf1uySZxM61pxb/kbifooUMhcnvKYaEzKnj8YfnYZMDfXmU2yQmyaUPchVITfIVSE3yFUhN8gNCrXuzpWkH9mKYRu+qUJomVBTVSGpKiRVhaSqkNR/uPkWw4pHGakAAAAASUVORK5CYII=" y="723.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="34" x="343.5" y="786.8047">STB</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="362.5" y="803.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="190" x="265.5" y="819.8701">Connects to the provider to</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="318" y="836.167">get content.</text><!--MD5=[7f2eccf8dea49ab1e66899fd8b71b5f3]
+entity iptv--><rect fill="#1168BD" height="135.5156" style="stroke:#3C7FC0;stroke-width:1.5;" width="207" x="266" y="474.9531"/><image height="48" width="48" x="345.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACVklEQVR4Xu2YvUoEMRSF9xXuG+wj+Aj7CD7ClpaLtYWVrdbW1traiFjYiGghaGHhtgoigljYrIccDDEZc89IGBfZ5TBkkzvJlzPJnZ+RbZwslUZl1d9qBeTpvwCNN8+m+zezgzto+/AeYjnWTHYuyrMU9QYiB45gKlujAISw9b0rlHFkQZEPhLEpzHv3eL62dQ5hPAiFLBgDswkCMf6e3j7zFPAptjlAaS+gsTD11Jt06pkNjMQRJ7ITTCkN6JQPxOP1/JW9lzGsBA0CMs+ICCCcbm2B2BfGxiV4eHpPTSIQji9vH4vFIvWJTQjm6Q2AuB4BRAIMsAi/1IkIBFYwpU2xDJMUGnOBLIx0dPkYy1QWYMGG7HqlNZhVuQM65QPZd6u5VtK/aIUxWCVkxcDcXxk39mnZcykJiCspKt329A9AuF4cEjSdKSrr5Cf5QEzKZT2bsrEzV1I1A4INlTwLAuZuxKBQWSgtgSrztsBE4npYMyCu0LI+ahJuW+Xuy9QMyOQNUldLILGvusROhgMSbR4OSOxkUKDOhJnJAeKeF++LdQGontKoGlC8O7ZyyEKOqCRPqwNZWImT8MhXNvWVkqvMBaIaOuRqBeRJAhJzWl1iJysgT8MBtVxDbnpVJKZ7CaiJQ2InEpDodkXuY2eUCqTcqCvSpyQBmbwCOoXJtAeKrxa/UK97swpkwaSp9+EsE5eObo/pQHxjN+GBJmr29RGHZ5UBnVKB4ucLvqHOwsdNVpJ1HD5n0Q8qVupbzHoBlY9XfMAlIgPKC0qm9g4NphWQp6UD+gSujndAS0pvKQAAAABJRU5ErkJggg==" y="484.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="125" x="307" y="547.8047">IPTV endpoint</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="371.5" y="564.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="280" y="580.8701">Provides http endpoint for</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="355.5" y="597.167">STB</text><!--MD5=[4118d765d6cf067c4e93a55155512310]
+entity management--><rect fill="#1168BD" height="119.2188" style="stroke:#3C7FC0;stroke-width:1.5;" width="175" x="282" y="252.9531"/><image height="48" width="48" x="345.5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAACLklEQVR4Xu2WO0qEMRSF3UJ24BJcgktwCZaWYm1hZau1jY21tjYiCjYiWghaWDiFjYKIIBY2vx+5GELuzWMwoEWGwzCTyeP7zz1JZsGtnfwrLeimv9UAqmkA1TSAahpANQ2gmlqBFjfOljYvdHt32UA7x7PTu9eb2fvbx9c0Tbw/vnzyvn/+pDv3lQ0ECgRYgjGhka/ALW9f6v4dZQOt7t2ytq4RzsGq+3eUDYQo0NHVs9m+fnCv23spC8SqpkmYB1Ncyr7KAjlvhpliqma2mwKd2PF4DNk6fNAdEpWASAwmaTNYoCXdK7vXPBJiwzJVI1MJCBQWNs0gXi3pZqtS4rgFOEB1z6ASEILGNElYq+nGxSRwfJYDRXcWVYDk7MFw/RPmt6SbbomXUMKUG1gBcr46pknOV8QsaCKAQnSgkScxzxTXAiQRNk0iDS3plmOW9Ez+BR+z5UbVgZx/RCbS7c6H1Ew3rHKsBwjJnOl0rCYgccLcsRIyWUlD8DXsKbmw9QyJmoCcjwuFTxqBkINbCHjRLYZIFIcpp1YgyQHTYQl+EMnAAYT4US0HYxmVS4+oFcj5myQ4IdskZALQybr4tKpX4RxArMcmB8JcWK4I3a6Fl4WecwCVJTVNLopYVIp4SX0LdnYDcv7RdfBZOObAmwK06wsUH6GS/fgIaDmEXF8g93PPBD/4IBtT98ypMxAeyH8g4l/e3jl1Bvq9BlBNA6imAVTTAKppANX074C+AZtF4bQZB0FTAAAAAElFTkSuQmCC" y="262.9531"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="110" x="314.5" y="325.8047">sr-admin-gui</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="371.5" y="342.5732"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="151" x="296" y="358.8701">Management platform</text><!--MD5=[7868289d43c8ae9fc61a717ca1fd8008]
+reverse link tv to stb--><path d="M190.62,616.7831 C212.73,638.4431 237.06,662.1931 259.5,683.9531 C269.45,693.6031 279.97,703.7631 290.33,713.7231 " fill="none" id="tv-backto-stb" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="184.74,611.0231,188.3539,618.7652,192.5535,614.4799,184.74,611.0231" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="95" x="260.5" y="660.0918">Connected to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="42" x="287" y="674.0605">[HDMI]</text><!--MD5=[765162b640c92c9311701e3cc40711c2]
+link iptv to stb--><path d="M366.95,611.2331 C365.82,640.7531 364.5,675.5331 363.35,705.8931 " fill="none" id="iptv-to-stb" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="363.05,713.9131,366.3477,706.0312,360.3519,705.8063,363.05,713.9131" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="111" x="378" y="653.0918">Gets config and</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="136" x="367.5" y="667.0605">video streams from</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="415.5" y="681.0293">[HTTP]</text><!--MD5=[b0e38dba4075a79336f71fa850ff0df2]
+link manager to management--><path d="M369.5,164.2331 C369.5,189.8431 369.5,219.0031 369.5,244.5731 " fill="none" id="manager-to-management" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="369.5,252.7431,372.5,244.7431,366.5,244.7431,369.5,252.7431" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="138" x="370.5" y="206.0918">Manages offferings</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="419.5" y="220.0605">[HTTP]</text><!--MD5=[9479361736730417facdbf9d53499878]
+link tv to customer--><path d="M107.1,611.1631 C106.02,621.1331 105.09,631.3031 104.5,640.9531 C103.21,661.8431 103.13,684.5031 103.59,705.3931 " fill="none" id="tv-to-customer" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="103.8,713.6131,106.5847,705.5357,100.5869,705.6963,103.8,713.6131" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="83" x="105.5" y="660.0918">Watches TV</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="41" x="126.5" y="674.0605">[Light]</text><!--MD5=[21956eff279b851cf4d6a0a0dc7c06d5]
+link management to iptv--><path d="M369.5,372.0031 C369.5,400.7731 369.5,435.7731 369.5,466.5231 " fill="none" id="management-to-iptv" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="369.5,474.6531,372.5,466.6531,366.5,466.6531,369.5,474.6531" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="96" x="370.5" y="414.0918">Routes traffic</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="51" x="395" y="428.0605">to/from</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="400.5" y="442.0293">[HTTP]</text><rect fill="#FFFFFF" height="95.4844" rx="5" ry="5" style="stroke:#FFFFFF;stroke-width:1.0;" width="129" x="365.5" y="862.4688"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="59" x="371.5" y="882.4639">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="434.5" y="882.4639"/><rect fill="#08427B" height="16.2969" style="stroke:none;stroke-width:1.0;" width="117" x="371.5" y="885.7656"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="375.5" y="898.7607">person</text><rect fill="#1168BD" height="16.2969" style="stroke:none;stroke-width:1.0;" width="117" x="371.5" y="902.0625"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="375.5" y="915.0576">system</text><rect fill="#686868" height="16.2969" style="stroke:none;stroke-width:1.0;" width="117" x="371.5" y="918.3594"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="375.5" y="931.3545">external person</text><rect fill="#999999" height="16.2969" style="stroke:none;stroke-width:1.0;" width="117" x="371.5" y="934.6563"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="375.5" y="947.6514">external system</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="371.5" x2="488.5" y1="869.4688" y2="869.4688"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="371.5" x2="488.5" y1="885.7656" y2="885.7656"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="371.5" x2="488.5" y1="902.0625" y2="902.0625"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="371.5" x2="488.5" y1="918.3594" y2="918.3594"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="371.5" x2="488.5" y1="934.6563" y2="934.6563"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="371.5" x2="488.5" y1="950.9531" y2="950.9531"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="371.5" x2="371.5" y1="869.4688" y2="950.9531"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="488.5" x2="488.5" y1="869.4688" y2="950.9531"/><!--MD5=[f376851bcaa4a8cd60e5b5280d48fd18]
 @startuml
 
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/releases/v2/C4_Context.puml
+
+!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+!define GOVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/govicons
+!define MATERIAL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/material
+
+!define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
+
+!include DEVICONS/laravel.puml
+!include DEVICONS/go.puml
+!include DEVICONS/terminal.puml
+!include GOVICONS/poison.puml
+!include MATERIAL/business_center.puml
+
+
+!include FONTAWESOME/users.puml
 
 LAYOUT_WITH_LEGEND()
 
 title System Context diagram for open source iptv 
 
-Person(customer, "Personal Banking Customer", "A customer of the bank, with personal bank accounts.")
-System(banking_system, "Internet Banking System", "Allows customers to view information about their bank accounts, and make payments.")
+Person_Ext(customer, "IPTV Customer", "A customer, client for the IPTV (Watching TV).", $sprite="users")
+Person(manager, "IPTV Manager", "Manages offerings, customers, video.", $sprite="business_center")
 
-System_Ext(mail_system, "E-mail system", "The internal Microsoft Exchange e-mail system.")
-System_Ext(mainframe, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+System_Ext(tv, "Television set", "Connects to STB to view tv shows and movies.", $sprite="poison")
 
-Rel(customer, banking_system, "Uses")
-Rel_Back(customer, mail_system, "Sends e-mails to")
-Rel_Neighbor(banking_system, mail_system, "Sends e-mails", "SMTP")
-Rel(banking_system, mainframe, "Uses")
+System(stb, "STB", "Connects to the provider to get content.", $sprite="terminal")
+System(iptv, "IPTV endpoint", "Provides http endpoint for STB", $sprite="go")
+System(management, "sr-admin-gui", "Management platform", $sprite="laravel")
+
+
+Rel_Back(tv, stb, "Connected to", "HDMI")
+Rel(iptv, stb, "Gets config and video streams from", "HTTP")
+
+Rel(manager, management, "Manages offferings", "HTTP")
+Rel(tv, customer, "Watches TV", "Light")
+Rel(management, iptv, "Routes traffic to/from", "HTTP")
+
+
 @enduml
 
 @startuml
@@ -190,6 +216,329 @@ sprite $person [48x48/16] {
 
 
 
+
+
+sprite $laravel [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000012000000000000000000000000000000000
+00000008BCEFEDE900000000000000000000000000000000
+0000000CD210002F30000000000000000000000000000000
+00000005F2000008C0000000000000000000000000000000
+00000000EA000000E6000000000000000000000000000000
+000000006F2000005E100000000000000000000000000000
+000000000E9000000C900000000000001369700000000000
+0000000008F1000003F300000000004EEB86970000000000
+0000000001F9000000AC00000000000D50000B4000000000
+00000000009F1000001F600000000003E10001D200000000
+00000000002F80000007E100000000007C00003D10000000
+00000000000AF1000000D900000000000C70037EA0000000
+000000000003F80000004F300000000005FBFFC830000000
+000000000000CF0000000BC00000048CFFCF610000000000
+0000000000004F70000002F6148CFFC84008B00000000000
+0000000000000DE0000015EFFFD840000000C70000000000
+00000000000005F726AEFFDFC100000000002E3000000000
+00000000000000EFFFEA6107F2000000000005E100000000
+000000000000002962000000EB000000000000CB00000000
+0000000000000000000000005F50000000038DFF20000000
+0000000000000000000000000CE0000028DFFB5000000000
+00000000000000000000000003F8026CFFC6100000000000
+00000000000000000000000000AFDFFD7200000000000000
+000000000000000000000000001EE9300000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV LARAVEL>> White
+sprite $go [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000156677666673000000000000000000
+000000000000000056510000000003640440000000000000
+00000000000555782233200000433314B226300000000000
+000000000063008031000400040000313830700000000000
+0000000000606C13000000304120000408C0700000000000
+0000000000606703BD1000303EF400030170700000000000
+0000000000446103FF2000303BE200020087000000000000
+000000000003A00333000030120000120042000000000000
+00000000000070004100047EC33214300005000000000000
+0000000000006000023323AEB50110000006000000000000
+000000000001500000001100003000000006000000000000
+000000000002400000000356452000000006000000000000
+000000000002300000000034030000000006000000000000
+000000000001400000000036330000000006000000000000
+000000000000500000000000000000000006000000000000
+000000000000600000000000000000000006000000000000
+000000000000600000000000000000000005000000000000
+000000000000600000000000000000000006000000000000
+000000000000600000000000000000000006100000000000
+000000000023700000000000000000000006240000000000
+000000000120600000000000000000000006032000000000
+000000000053800000000000000000000006330000000000
+000000000000600000000000000000000006000000000000
+000000000000600000000000000000000006000000000000
+000000000000600000000000000000000006000000000000
+000000000000500000000000000000000005000000000000
+000000000000500000000000000000000005000000000000
+000000000000500000000000000000000005000000000000
+000000000000500000000000000000000006000000000000
+000000000000400000000000000000000007000000000000
+000000000000500000000000000000000005000000000000
+000000000000600000000000000000000014000000000000
+000000000000610000000000000000000060000000000000
+000000000000070000000000000000000160000000000000
+000000000000034000000000000000000800000000000000
+000000000000007510000000000000014600000000000000
+000000000000021032000000000000670030000000000000
+000000000000042045664221134666113140000000000000
+000000000000043300002345431000001330000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV GO>> White
+sprite $terminal [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000009EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEB10000000
+00000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFC2DFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFC001DFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFF50001DFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFF40001DFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFF40001DFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFF40001DFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFF40001DFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFF70000BFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFF70000AFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFF70000AFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFF70000AFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFF70000BFFFFEEEEEEEEEFFFFFFFFFF0000000
+0000000CFFFF9000BFFFFB000000000AFFFFFFFFF0000000
+0000000CFFFFF90BFFFFFB000000000AFFFFFFFFF0000000
+0000000CFFFFFFEFFFFFFEAAAAAAAAAEFFFFFFFFF0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+0000000CFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000000
+00000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+00000000AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB20000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<DEV TERMINAL>> White
+sprite $poison [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000002689963000000000000000000000
+0000000000000000005DFFFFFFFD50000000000000000000
+00000000000000000AFFFFFFFFFFFB000000000000000000
+00000000000000009FFFFFFFFFFFFFB00000000000000000
+0000000000000003FFFFFFFFFFFFFFF60000000000000000
+000000000000000AFFFFFFFFFFFFFFFC0000000000000000
+000000000000000EFFFFFFFFFFFFFFFF0000000000000000
+000000000000001FFFFFFFFFFFFFFFFF2000000000000000
+000000000000001FFFB78DFFFD87AFFF2000000000000000
+000000000000000EFB0000AFB0000AFF0000000000000000
+0000000000000009F800007F900006FB0000000000000000
+0000000000000002FB0000CFE0000AF40000000000000000
+0000000000000000BFB67CE5DD76AFD00000000000000000
+0000000000000000AFFFFF704FFFFFC00000000000000000
+0000000000000000EFFFFF000EFFFFF10000000000000000
+0000000000000000AFFFFFBDAFFFFFB00000000000000000
+0000000000000372047FFFFFFFFF73006700000000000000
+0000000000001FFE000BFFFFFFFD0007FF80000000000000
+0000000000003FFF20002AD3BC20000AFFB0000000000000
+000000000000BFFFFB500000000039EFFFF3000000000000
+000000000000FFFFFFFFA400017DFFFFFFF8000000000000
+000000000000AFD38EFFFE76CFFFFFB56FE3000000000000
+000000000000010000488AFFFFFC61000100000000000000
+0000000000001630038EFFFFE98BB5000540000000000000
+000000000000DFF8DFFFFF942CFFFFF9BFF4000000000000
+000000000000FFFFFFFB50000038EFFFFFF7000000000000
+0000000000008FFFC7100000000004AFFFE1000000000000
+0000000000003FFF100000000000000AFFA0000000000000
+0000000000000DFC0000000000000005FF50000000000000
+000000000000003000000000000000002100000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<GOV POISON>> White
+sprite $business_center [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+00000000000000000008FFFFFFFF70000000000000000000
+0000000000000000008FFFFFFFFFF7000000000000000000
+000000000000000008FFFFFFFFFFFF700000000000000000
+00000000000000008FFFFFFFFFFFFFF70000000000000000
+0000000000000001FFFF00000000FFFF0000000000000000
+0000000000000001FFFF00000000FFFF0000000000000000
+0000000000000001FFFF00000000FFFF0000000000000000
+0000000000000001FFFF00000000FFFF0000000000000000
+000001BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB100000
+00001EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000
+0000AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA0000
+0000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE0000
+0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+0000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF0000
+0000EFFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFFE0000
+0000AFFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFFA0000
+00001FFFFFFFFFFFFFFF00000000FFFFFFFFFFFFFFE10000
+000002BFFFFFFFFFFFFF00000000FFFFFFFFFFFFFA100000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000FFFFFFFFFFFFFF00000000FFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFF00000000FFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000
+000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF000000
+000000AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA000000
+0000002EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE2000000
+00000002AFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA20000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/material BUSINESS_CENTER>> White
+
+
+sprite $users [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000024310000000000000000000000
+000000000000000000018EFFFFC400000000000000000000
+0000000000000000003EFFFFFFFF90000000000000000000
+000000000000000002EFFFFFFFFFF9000000000000000000
+00000000000000000CFFFFFFFFFFFF400000000000000000
+0000006DFE8000004FFFFFFFFFFFFFC000004BFEA2000000
+000009FFFFFC00009FFFFFFFFFFFFFF10005FFFFFE200000
+00003FFFFFFF8000BFFFFFFFFFFFFFF3001FFFFFFFC00000
+00009FFFFFFFD000CFFFFFFFFFFFFFF4005FFFFFFFF10000
+0000AFFFFFFFE000AFFFFFFFFFFFFFF2006FFFFFFFF20000
+00007FFFFFFFC0006FFFFFFFFFFFFFE0004FFFFFFFF00000
+00001FFFFFFF50001FFFFFFFFFFFFF80000DFFFFFF900000
+000004FFFFF8000007FFFFFFFFFFFE100002DFFFFB000000
+000000179830000000AFFFFFFFFFF3000000069940000000
+00000000000000000007FFFFFFFC20000000000000000000
+0000012333310000000016ACB94000000000233332000000
+0001BFFFFFFFD3000000000000000000008FFFFFFFE60000
+000DFFFFFFFFE400000000000000000000AFFFFFFFFF6000
+007FFFFFFFFD1006BEFE8310025BFFD92006FFFFFFFFF000
+00CFFFFFFFE102DFFFFFFFFFFFFFFFFFF8007FFFFFFFF400
+00DFFFFFFF302FFFFFFFFFFFFFFFFFFFFFA00BFFFFFFF500
+00DFFFFFFB00EFFFFFFFFFFFFFFFFFFFFFF603FFFFFFF500
+00CFFFFFF407FFFFFFFFFFFFFFFFFFFFFFFE00CFFFFFF400
+006FFFFFF00DFFFFFFFFFFFFFFFFFFFFFFFF508FFFFFD000
+00037777601FFFFFFFFFFFFFFFFFFFFFFFFF902777761000
+00000000002FFFFFFFFFFFFFFFFFFFFFFFFFB00000000000
+00000000003FFFFFFFFFFFFFFFFFFFFFFFFFB00000000000
+00000000003FFFFFFFFFFFFFFFFFFFFFFFFFB00000000000
+00000000000FFFFFFFFFFFFFFFFFFFFFFFFF800000000000
+000000000009FFFFFFFFFFFFFFFFFFFFFFFF200000000000
+0000000000007DEEEEEEEEEEEEEEEEEEEEB2000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+skinparam folderBackgroundColor<<FA5 USERS>> White
+
 hide stereotype
 legend right
 |<color:#000000>**Legend**</color> |
@@ -201,16 +550,24 @@ endlegend
 
 title System Context diagram for open source iptv 
 
-rectangle "<$person>\n==Personal Banking Customer\n\n A customer of the bank, with personal bank accounts." <<person>> as customer
-rectangle "==Internet Banking System\n\n Allows customers to view information about their bank accounts, and make payments." <<system>> as banking_system
+rectangle "<$users>\n==IPTV Customer\n\n A customer, client for the IPTV (Watching TV)." <<external_person>> as customer
+rectangle "<$business_center>\n==IPTV Manager\n\n Manages offerings, customers, video." <<person>> as manager
 
-rectangle "==E-mail system\n\n The internal Microsoft Exchange e-mail system." <<external_system>> as mail_system
-rectangle "==Mainframe Banking System\n\n Stores all of the core banking information about customers, accounts, transactions, etc." <<external_system>> as mainframe
+rectangle "<$poison>\n==Television set\n\n Connects to STB to view tv shows and movies." <<external_system>> as tv
 
-customer - ->> banking_system : **Uses**
-customer <<- - mail_system : **Sends e-mails to**
-banking_system ->> mail_system : **Sends e-mails**\n//<size:12>[SMTP]</size>//
-banking_system - ->> mainframe : **Uses**
+rectangle "<$terminal>\n==STB\n\n Connects to the provider to get content." <<system>> as stb
+rectangle "<$go>\n==IPTV endpoint\n\n Provides http endpoint for STB" <<system>> as iptv
+rectangle "<$laravel>\n==sr-admin-gui\n\n Management platform" <<system>> as management
+
+
+tv <<- - stb : **Connected to**\n//<size:12>[HDMI]</size>//
+iptv - ->> stb : **Gets config and video streams from**\n//<size:12>[HTTP]</size>//
+
+manager - ->> management : **Manages offferings**\n//<size:12>[HTTP]</size>//
+tv - ->> customer : **Watches TV**\n//<size:12>[Light]</size>//
+management - ->> iptv : **Routes traffic to/from**\n//<size:12>[HTTP]</size>//
+
+
 @enduml
 
 PlantUML version 1.2021.14(Fri Nov 12 16:46:50 GMT 2021)
