@@ -1,0 +1,70 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+!define GOVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/govicons
+!define MATERIAL https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/material
+!define WEATHER https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/weather
+
+!define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
+
+!include DEVICONS/go.puml
+!include DEVICONS/terminal.puml
+!include GOVICONS/poison.puml
+!include MATERIAL/business_center.puml
+!include MATERIAL/cached.puml
+!include MATERIAL/cast.puml
+!include MATERIAL/cast_connected.puml
+!include MATERIAL/dashboard.puml
+!include MATERIAL/live_tv.puml
+!include WEATHER/cloud.puml
+
+!include FONTAWESOME/users.puml
+
+AddRelTag("admin", $textColor="orange", $lineColor="orange", $lineStyle = DashedLine())
+AddRelTag("video", $textColor="green", $lineColor="green", $lineStyle = BoldLine())
+
+LAYOUT_LANDSCAPE()
+SHOW_LEGEND()
+
+title Container diagram for Open Source IPTV
+
+Person(manager, "IPTV Manager", "Manages offerings, customers, video.", $sprite="business_center")
+
+System_Boundary(home, "Customer Home") {
+    Person_Ext(customer, "IPTV Customer", "A customer, client for the IPTV (Watching TV).", $sprite="users")
+    Container(tv, "TV Set", "Sony, Samsung, LG", "Shows the picture", $sprite="poison")
+    Container(stb, "STB", "No Name STB", "Gets the signal from Service Provider", $sprite="terminal")
+}
+
+System_Boundary(c1, "Service Provider (ISP/TV)") {
+    Container(caddy, "Main Load Balancer", "HTTPS", "Allows access iptv, admin and other services", $sprite="cloud")
+    Container(admin, "Admin GUI", "Laravel", "Provides functionality for IPTV Manager via web browser", $sprite="dashboard")
+    Container(video_gateway, "Video gateway", "HLS", "Provides video stream via https",  $sprite="cast")
+    Container(video_transcoder, "Video transcoder", "HLS", "Converts UDP to HLS", $sprite="live_tv")
+    Container(video_cache, "Video cache", "HLS", "Provides video cache service", $sprite="cached")
+}
+
+System_Ext(tvsignal_provider, "Channel provider", "Video Stream", $sprite="cast_connected")
+
+Rel_Back(customer, tv, "Watches", "Vision", $tags="video")
+Rel(manager, caddy, "Manages", "Browser", $tags="admin")
+Rel(caddy, admin, "Passthrough", "Browser", $tags="admin")
+Rel_Back(tv, stb, "Uses", "HDMI", $tags="video")
+Rel_Back(stb, caddy, "Gets stb config and video streams", "HTTPS", $tags="video")
+
+Rel(video_gateway, caddy, "Streams traffic to", "HTTPS")
+
+Rel_Back(video_gateway, video_transcoder, "Gets stream", "HTTPS", $tags="video")
+Rel_Back(video_gateway, video_cache, "Gets stream", "HTTPS", $tags="video")
+
+
+Rel(admin, video_gateway, "Configures", "HTTPS", $tags="admin")
+Rel(admin, video_transcoder, "Configures", "HTTPS", $tags="admin")
+Rel(admin, video_cache, "Configures", "HTTPS", $tags="admin")
+
+Rel_Back(video_transcoder, tvsignal_provider, "Gets channel signal", "UDP", $tags="video")
+Rel_Back(video_cache, tvsignal_provider, "Gets video signal", "HLS", $tags="video")
+
+
+@enduml
