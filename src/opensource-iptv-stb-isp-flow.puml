@@ -1,0 +1,30 @@
+@startuml
+
+alt initial request
+STB -> LB
+LB -> "sr-admin-gui"
+"sr-admin-gui" -> "video-gateway"
+"video-gateway" -> "sr-admin-gui" : OK
+"sr-admin-gui" -> LB : New URL
+"LB" -> STB : sends new url to client for real HLS traffic
+end alt
+
+alt request m3u8 file
+STB -> LB : comes with m3u8 file
+LB -> "video-gateway" : checks ACL and on yes proxies to video-transcoder
+"video-gateway" -> "video-transcoder" : video gateway forwards request to transcoder
+"video-transcoder" -> "video-gateway" : response with m3u8 contents
+"video-gateway" -> LB : response with m3u8 contents
+LB -> STB : response with m3u8 contents
+end alt
+
+alt request ts files
+STB -> LB : comes with ts from m3u8 file
+LB -> "video-gateway" : checks ACL and on yes proxies to video-transcoder
+"video-gateway" -> "video-transcoder" : video gateway forwards request to transcoder
+"video-transcoder" -> "video-gateway" : response with ts contents
+"video-gateway" -> LB : response with ts contents
+LB -> STB : response with ts contents
+end alt
+
+@enduml

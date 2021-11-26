@@ -1,4 +1,4 @@
-all: context container
+all: context container stb-sp-flow
 
 clean:
 	rm -f pdf/*
@@ -14,3 +14,7 @@ container:
 	cat src/opensource-iptv-container.puml | docker run --rm -i ghcr.io/streamingriver/plantuml-docker:main -tpdf > pdf/opensource-iptv-container.pdf
 	cat src/opensource-iptv-container.puml | docker run --rm -i ghcr.io/streamingriver/plantuml-docker:main > svg/opensource-iptv-container.svg
 
+stb-sp-flow:
+	@echo "Generating flow"
+	cat src/opensource-iptv-stb-isp-flow.puml | docker run --rm -i ghcr.io/streamingriver/plantuml-docker:main -tpdf > pdf/opensource-iptv-stb-isp-flow.pdf
+	cat src/opensource-iptv-stb-isp-flow.puml | docker run --rm -i ghcr.io/streamingriver/plantuml-docker:main > svg/opensource-iptv-stb-isp-flow.svg
